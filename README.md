@@ -67,7 +67,7 @@ This naming structure ensures buildings are easily searchable and identifiable f
 
 We hope this organization makes your mapping process smoother and helps you find the perfect buildings for your next project. Enjoy building and thank you for being part of this event!
 
-**NO REUPLOAD ELSEWHERE** – This pack belongs to the unofficial Mapping Discord.  
+**NO REUPLOAD ELSEWHERE** – This pack belongs to the unofficial Mapping Discord and everyone listed above!  
 It would be appreciated if you mention this pack when using it, but it’s not required. However, every creator would be happy to get credit.
 
 You also can find it in the Discord News and on the Steam Workshop from everyone listed above
