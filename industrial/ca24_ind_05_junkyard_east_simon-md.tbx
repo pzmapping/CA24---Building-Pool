@@ -1,0 +1,3366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<building version="3" width="46" height="48" ExteriorWall="6" ExteriorWallTrim="4" Door="0" DoorFrame="0" Window="43" Curtains="0" Shutters="0" Stairs="42" RoofCap="36" RoofSlope="39" RoofTop="41" GrimeWall="20">
+ <properties>
+  <property name="Legend" value="Industrial"/>
+ </properties>
+ <tile_entry category="doors">
+  <tile enum="West" tile="fixtures_doors_01_048"/>
+  <tile enum="North" tile="fixtures_doors_01_049"/>
+  <tile enum="WestOpen" tile="fixtures_doors_01_050"/>
+  <tile enum="NorthOpen" tile="fixtures_doors_01_051"/>
+ </tile_entry>
+ <tile_entry category="doors">
+  <tile enum="West" tile="fixtures_doors_01_056"/>
+  <tile enum="North" tile="fixtures_doors_01_057"/>
+  <tile enum="WestOpen" tile="fixtures_doors_01_058"/>
+  <tile enum="NorthOpen" tile="fixtures_doors_01_059"/>
+ </tile_entry>
+ <tile_entry category="doors">
+  <tile enum="West" tile="melos_tiles_doors_02_040"/>
+  <tile enum="North" tile="melos_tiles_doors_02_041"/>
+  <tile enum="WestOpen" tile="melos_tiles_doors_02_042"/>
+  <tile enum="NorthOpen" tile="melos_tiles_doors_02_043"/>
+ </tile_entry>
+ <tile_entry category="exterior_wall_trim">
+  <tile enum="West" tile="location_shop_mall_01_004"/>
+  <tile enum="North" tile="location_shop_mall_01_005"/>
+  <tile enum="NorthWest" tile="location_shop_mall_01_006"/>
+  <tile enum="SouthEast" tile="location_shop_mall_01_007"/>
+  <tile enum="WestWindow" tile="location_shop_mall_01_012"/>
+  <tile enum="NorthWindow" tile="location_shop_mall_01_013"/>
+  <tile enum="WestDoor" tile="location_shop_mall_01_014"/>
+  <tile enum="NorthDoor" tile="location_shop_mall_01_015"/>
+ </tile_entry>
+ <tile_entry category="exterior_walls">
+  <tile enum="West" tile="walls_commercial_03_000"/>
+  <tile enum="North" tile="walls_commercial_03_001"/>
+  <tile enum="NorthWest" tile="walls_commercial_03_002"/>
+  <tile enum="SouthEast" tile="walls_commercial_03_003"/>
+  <tile enum="WestWindow" tile="walls_commercial_03_008"/>
+  <tile enum="NorthWindow" tile="walls_commercial_03_009"/>
+  <tile enum="WestDoor" tile="walls_commercial_03_010"/>
+  <tile enum="NorthDoor" tile="walls_commercial_03_011"/>
+ </tile_entry>
+ <tile_entry category="exterior_walls">
+  <tile enum="West" tile="walls_commercial_03_016"/>
+  <tile enum="North" tile="walls_commercial_03_017"/>
+  <tile enum="NorthWest" tile="walls_commercial_03_018"/>
+  <tile enum="SouthEast" tile="walls_commercial_03_019"/>
+  <tile enum="WestWindow" tile="walls_commercial_03_024"/>
+  <tile enum="NorthWindow" tile="walls_commercial_03_025"/>
+  <tile enum="WestDoor" tile="walls_commercial_03_026"/>
+  <tile enum="NorthDoor" tile="walls_commercial_03_027"/>
+ </tile_entry>
+ <tile_entry category="exterior_walls">
+  <tile enum="West" tile="walls_exterior_house_01_004"/>
+  <tile enum="North" tile="walls_exterior_house_01_005"/>
+  <tile enum="NorthWest" tile="walls_exterior_house_01_006"/>
+  <tile enum="SouthEast" tile="walls_exterior_house_01_007"/>
+  <tile enum="WestWindow" tile="walls_exterior_house_01_012"/>
+  <tile enum="NorthWindow" tile="walls_exterior_house_01_013"/>
+  <tile enum="WestDoor" tile="walls_exterior_house_01_014"/>
+  <tile enum="NorthDoor" tile="walls_exterior_house_01_015"/>
+ </tile_entry>
+ <tile_entry category="exterior_walls">
+  <tile enum="West" tile="walls_exterior_house_02_000"/>
+  <tile enum="North" tile="walls_exterior_house_02_001"/>
+  <tile enum="NorthWest" tile="walls_exterior_house_02_002"/>
+  <tile enum="SouthEast" tile="walls_exterior_house_02_003"/>
+  <tile enum="WestWindow" tile="walls_exterior_house_02_008"/>
+  <tile enum="NorthWindow" tile="walls_exterior_house_02_009"/>
+  <tile enum="WestDoor" tile="walls_exterior_house_02_010"/>
+  <tile enum="NorthDoor" tile="walls_exterior_house_02_011"/>
+ </tile_entry>
+ <tile_entry category="exterior_walls">
+  <tile enum="West" tile="walls_exterior_house_02_016"/>
+  <tile enum="North" tile="walls_exterior_house_02_017"/>
+  <tile enum="NorthWest" tile="walls_exterior_house_02_018"/>
+  <tile enum="SouthEast" tile="walls_exterior_house_02_019"/>
+  <tile enum="WestWindow" tile="walls_exterior_house_02_024"/>
+  <tile enum="NorthWindow" tile="walls_exterior_house_02_025"/>
+  <tile enum="WestDoor" tile="walls_exterior_house_02_026"/>
+  <tile enum="NorthDoor" tile="walls_exterior_house_02_027"/>
+ </tile_entry>
+ <tile_entry category="floors">
+  <tile enum="Floor" tile="floors_interior_carpet_01_000"/>
+ </tile_entry>
+ <tile_entry category="floors">
+  <tile enum="Floor" tile="floors_interior_tilesandwood_01_002"/>
+ </tile_entry>
+ <tile_entry category="floors">
+  <tile enum="Floor" tile="floors_interior_tilesandwood_01_004"/>
+ </tile_entry>
+ <tile_entry category="floors">
+  <tile enum="Floor" tile="floors_interior_tilesandwood_01_005"/>
+ </tile_entry>
+ <tile_entry category="floors">
+  <tile enum="Floor" tile="floors_interior_tilesandwood_01_011"/>
+ </tile_entry>
+ <tile_entry category="floors">
+  <tile enum="Floor" tile="floors_interior_tilesandwood_01_014"/>
+ </tile_entry>
+ <tile_entry category="floors">
+  <tile enum="Floor" tile="floors_interior_tilesandwood_01_018"/>
+ </tile_entry>
+ <tile_entry category="floors">
+  <tile enum="Floor" tile="floors_interior_tilesandwood_01_023"/>
+ </tile_entry>
+ <tile_entry category="floors">
+  <tile enum="Floor" tile="floors_interior_tilesandwood_01_042"/>
+ </tile_entry>
+ <tile_entry category="grime_floor">
+  <tile enum="West" tile="overlay_grime_floor_01_028"/>
+  <tile enum="North" tile="overlay_grime_floor_01_029"/>
+  <tile enum="East" tile="overlay_grime_floor_01_037"/>
+  <tile enum="South" tile="overlay_grime_floor_01_036"/>
+  <tile enum="SouthWest" tile="overlay_grime_floor_01_039"/>
+  <tile enum="NorthWest" tile="overlay_grime_floor_01_030"/>
+  <tile enum="NorthEast" tile="overlay_grime_floor_01_031"/>
+  <tile enum="SouthEast" tile="overlay_grime_floor_01_038"/>
+ </tile_entry>
+ <tile_entry category="grime_wall">
+  <tile enum="West" tile="overlay_grime_wall_01_016"/>
+  <tile enum="North" tile="overlay_grime_wall_01_017"/>
+  <tile enum="NorthWest" tile="overlay_grime_wall_01_018"/>
+  <tile enum="SouthEast" tile="overlay_grime_wall_01_019"/>
+  <tile enum="WestWindow" tile="overlay_grime_wall_01_024"/>
+  <tile enum="NorthWindow" tile="overlay_grime_wall_01_025"/>
+  <tile enum="WestDoor" tile="overlay_grime_wall_01_026"/>
+  <tile enum="NorthDoor" tile="overlay_grime_wall_01_027"/>
+  <tile enum="WestTrim" tile="overlay_grime_wall_01_040"/>
+  <tile enum="NorthTrim" tile="overlay_grime_wall_01_041"/>
+  <tile enum="NorthWestTrim" tile="overlay_grime_wall_01_042"/>
+  <tile enum="SouthEastTrim" tile="overlay_grime_wall_01_043"/>
+  <tile enum="WestDoubleLeft" tile="overlay_grime_wall_01_044"/>
+  <tile enum="WestDoubleRight" tile="overlay_grime_wall_01_045"/>
+  <tile enum="NorthDoubleLeft" tile="overlay_grime_wall_01_046"/>
+  <tile enum="NorthDoubleRight" tile="overlay_grime_wall_01_047"/>
+ </tile_entry>
+ <tile_entry category="interior_wall_trim">
+  <tile enum="West" tile="d_wall_decorations_01_048"/>
+  <tile enum="North" tile="d_wall_decorations_01_049"/>
+  <tile enum="NorthWest" tile="d_wall_decorations_01_050"/>
+  <tile enum="SouthEast" tile="d_wall_decorations_01_051"/>
+  <tile enum="WestWindow" tile=""/>
+  <tile enum="NorthWindow" tile=""/>
+  <tile enum="WestDoor" tile=""/>
+  <tile enum="NorthDoor" tile=""/>
+ </tile_entry>
+ <tile_entry category="interior_wall_trim">
+  <tile enum="West" tile="walls_commercial_02_024"/>
+  <tile enum="North" tile="walls_commercial_02_025"/>
+  <tile enum="NorthWest" tile="walls_commercial_02_026"/>
+  <tile enum="SouthEast" tile="walls_commercial_02_027"/>
+  <tile enum="WestWindow" tile=""/>
+  <tile enum="NorthWindow" tile=""/>
+  <tile enum="WestDoor" tile=""/>
+  <tile enum="NorthDoor" tile=""/>
+ </tile_entry>
+ <tile_entry category="interior_walls">
+  <tile enum="West" tile="location_restaurant_seahorse_01_004"/>
+  <tile enum="North" tile="location_restaurant_seahorse_01_005"/>
+  <tile enum="NorthWest" tile="location_restaurant_seahorse_01_006"/>
+  <tile enum="SouthEast" tile="location_restaurant_seahorse_01_007"/>
+  <tile enum="WestWindow" tile="location_restaurant_seahorse_01_012"/>
+  <tile enum="NorthWindow" tile="location_restaurant_seahorse_01_013"/>
+  <tile enum="WestDoor" tile="location_restaurant_seahorse_01_014"/>
+  <tile enum="NorthDoor" tile="location_restaurant_seahorse_01_015"/>
+ </tile_entry>
+ <tile_entry category="interior_walls">
+  <tile enum="West" tile="walls_commercial_01_048"/>
+  <tile enum="North" tile="walls_commercial_01_049"/>
+  <tile enum="NorthWest" tile="walls_commercial_01_050"/>
+  <tile enum="SouthEast" tile="walls_commercial_01_051"/>
+  <tile enum="WestWindow" tile="walls_commercial_01_056"/>
+  <tile enum="NorthWindow" tile="walls_commercial_01_057"/>
+  <tile enum="WestDoor" tile="walls_commercial_01_058"/>
+  <tile enum="NorthDoor" tile="walls_commercial_01_059"/>
+ </tile_entry>
+ <tile_entry category="interior_walls">
+  <tile enum="West" tile="walls_commercial_01_080"/>
+  <tile enum="North" tile="walls_commercial_01_081"/>
+  <tile enum="NorthWest" tile="walls_commercial_01_082"/>
+  <tile enum="SouthEast" tile="walls_commercial_01_083"/>
+  <tile enum="WestWindow" tile=""/>
+  <tile enum="NorthWindow" tile=""/>
+  <tile enum="WestDoor" tile="walls_commercial_01_090"/>
+  <tile enum="NorthDoor" tile="walls_commercial_01_091"/>
+ </tile_entry>
+ <tile_entry category="interior_walls">
+  <tile enum="West" tile="walls_interior_bathroom_01_016"/>
+  <tile enum="North" tile="walls_interior_bathroom_01_017"/>
+  <tile enum="NorthWest" tile="walls_interior_bathroom_01_018"/>
+  <tile enum="SouthEast" tile="walls_interior_bathroom_01_019"/>
+  <tile enum="WestWindow" tile="walls_interior_bathroom_01_024"/>
+  <tile enum="NorthWindow" tile="walls_interior_bathroom_01_025"/>
+  <tile enum="WestDoor" tile="walls_interior_bathroom_01_026"/>
+  <tile enum="NorthDoor" tile="walls_interior_bathroom_01_027"/>
+ </tile_entry>
+ <tile_entry category="interior_walls">
+  <tile enum="West" tile="walls_interior_house_01_016"/>
+  <tile enum="North" tile="walls_interior_house_01_017"/>
+  <tile enum="NorthWest" tile="walls_interior_house_01_018"/>
+  <tile enum="SouthEast" tile="walls_interior_house_01_019"/>
+  <tile enum="WestWindow" tile="walls_interior_house_01_024"/>
+  <tile enum="NorthWindow" tile="walls_interior_house_01_025"/>
+  <tile enum="WestDoor" tile="walls_interior_house_01_026"/>
+  <tile enum="NorthDoor" tile="walls_interior_house_01_027"/>
+ </tile_entry>
+ <tile_entry category="interior_walls">
+  <tile enum="West" tile="walls_interior_house_01_020"/>
+  <tile enum="North" tile="walls_interior_house_01_021"/>
+  <tile enum="NorthWest" tile="walls_interior_house_01_022"/>
+  <tile enum="SouthEast" tile="walls_interior_house_01_023"/>
+  <tile enum="WestWindow" tile="walls_interior_house_01_028"/>
+  <tile enum="NorthWindow" tile="walls_interior_house_01_029"/>
+  <tile enum="WestDoor" tile="walls_interior_house_01_030"/>
+  <tile enum="NorthDoor" tile="walls_interior_house_01_031"/>
+ </tile_entry>
+ <tile_entry category="interior_walls">
+  <tile enum="West" tile="walls_interior_house_02_000"/>
+  <tile enum="North" tile="walls_interior_house_02_001"/>
+  <tile enum="NorthWest" tile="walls_interior_house_02_002"/>
+  <tile enum="SouthEast" tile="walls_interior_house_02_003"/>
+  <tile enum="WestWindow" tile="walls_interior_house_02_008"/>
+  <tile enum="NorthWindow" tile="walls_interior_house_02_009"/>
+  <tile enum="WestDoor" tile="walls_interior_house_02_010"/>
+  <tile enum="NorthDoor" tile="walls_interior_house_02_011"/>
+ </tile_entry>
+ <tile_entry category="interior_walls">
+  <tile enum="West" tile="walls_interior_house_02_004"/>
+  <tile enum="North" tile="walls_interior_house_02_005"/>
+  <tile enum="NorthWest" tile="walls_interior_house_02_006"/>
+  <tile enum="SouthEast" tile="walls_interior_house_02_007"/>
+  <tile enum="WestWindow" tile="walls_interior_house_02_012"/>
+  <tile enum="NorthWindow" tile="walls_interior_house_02_013"/>
+  <tile enum="WestDoor" tile="walls_interior_house_02_014"/>
+  <tile enum="NorthDoor" tile="walls_interior_house_02_015"/>
+ </tile_entry>
+ <tile_entry category="interior_walls">
+  <tile enum="West" tile="walls_interior_house_03_020"/>
+  <tile enum="North" tile="walls_interior_house_03_021"/>
+  <tile enum="NorthWest" tile="walls_interior_house_03_022"/>
+  <tile enum="SouthEast" tile="walls_interior_house_03_023"/>
+  <tile enum="WestWindow" tile="walls_interior_house_03_028"/>
+  <tile enum="NorthWindow" tile="walls_interior_house_03_029"/>
+  <tile enum="WestDoor" tile="walls_interior_house_03_030"/>
+  <tile enum="NorthDoor" tile="walls_interior_house_03_031"/>
+ </tile_entry>
+ <tile_entry category="interior_walls">
+  <tile enum="West" tile="walls_interior_house_03_036"/>
+  <tile enum="North" tile="walls_interior_house_03_037"/>
+  <tile enum="NorthWest" tile="walls_interior_house_03_038"/>
+  <tile enum="SouthEast" tile="walls_interior_house_03_039"/>
+  <tile enum="WestWindow" tile="walls_interior_house_03_044"/>
+  <tile enum="NorthWindow" tile="walls_interior_house_03_045"/>
+  <tile enum="WestDoor" tile="walls_interior_house_03_046"/>
+  <tile enum="NorthDoor" tile="walls_interior_house_03_047"/>
+ </tile_entry>
+ <tile_entry category="interior_walls">
+  <tile enum="West" tile="walls_interior_house_04_064"/>
+  <tile enum="North" tile="walls_interior_house_04_065"/>
+  <tile enum="NorthWest" tile="walls_interior_house_04_066"/>
+  <tile enum="SouthEast" tile="walls_interior_house_04_067"/>
+  <tile enum="WestWindow" tile="walls_interior_house_04_072"/>
+  <tile enum="NorthWindow" tile="walls_interior_house_04_073"/>
+  <tile enum="WestDoor" tile="walls_interior_house_04_074"/>
+  <tile enum="NorthDoor" tile="walls_interior_house_04_075"/>
+ </tile_entry>
+ <tile_entry category="interior_walls">
+  <tile enum="West" tile="walls_interior_house_04_084"/>
+  <tile enum="North" tile="walls_interior_house_04_085"/>
+  <tile enum="NorthWest" tile="walls_interior_house_04_086"/>
+  <tile enum="SouthEast" tile="walls_interior_house_04_087"/>
+  <tile enum="WestWindow" tile="walls_interior_house_04_092"/>
+  <tile enum="NorthWindow" tile="walls_interior_house_04_093"/>
+  <tile enum="WestDoor" tile="walls_interior_house_04_094"/>
+  <tile enum="NorthDoor" tile="walls_interior_house_04_095"/>
+ </tile_entry>
+ <tile_entry category="roof_caps">
+  <tile enum="CapRiseE1" tile="walls_exterior_roofs_05_024"/>
+  <tile enum="CapRiseE2" tile="walls_exterior_roofs_05_025"/>
+  <tile enum="CapRiseE3" tile="walls_exterior_roofs_05_026"/>
+  <tile enum="CapFallE1" tile="walls_exterior_roofs_05_032"/>
+  <tile enum="CapFallE2" tile="walls_exterior_roofs_05_033"/>
+  <tile enum="CapFallE3" tile="walls_exterior_roofs_05_034"/>
+  <tile enum="CapRiseS1" tile="walls_exterior_roofs_05_037"/>
+  <tile enum="CapRiseS2" tile="walls_exterior_roofs_05_036"/>
+  <tile enum="CapRiseS3" tile="walls_exterior_roofs_05_035"/>
+  <tile enum="CapFallS1" tile="walls_exterior_roofs_05_029"/>
+  <tile enum="CapFallS2" tile="walls_exterior_roofs_05_028"/>
+  <tile enum="CapFallS3" tile="walls_exterior_roofs_05_027"/>
+  <tile enum="PeakPt5S" tile="walls_exterior_roofs_05_031"/>
+  <tile enum="PeakPt5E" tile="walls_exterior_roofs_05_039"/>
+  <tile enum="PeakOnePt5S" tile="walls_exterior_roofs_05_030"/>
+  <tile enum="PeakOnePt5E" tile="walls_exterior_roofs_05_038"/>
+  <tile enum="PeakTwoPt5S" tile="walls_exterior_roofs_05_041"/>
+  <tile enum="PeakTwoPt5E" tile="walls_exterior_roofs_05_040"/>
+  <tile enum="CapGapS1" tile=""/>
+  <tile enum="CapGapS2" tile=""/>
+  <tile enum="CapGapS3" tile=""/>
+  <tile enum="CapGapE1" tile=""/>
+  <tile enum="CapGapE2" tile=""/>
+  <tile enum="CapGapE3" tile=""/>
+  <tile enum="CapShallowRiseS1" tile="walls_exterior_roofs_05_070"/>
+  <tile enum="CapShallowRiseS2" tile="walls_exterior_roofs_05_071"/>
+  <tile enum="CapShallowFallS1" tile="walls_exterior_roofs_05_067"/>
+  <tile enum="CapShallowFallS2" tile="walls_exterior_roofs_05_066"/>
+  <tile enum="CapShallowRiseE1" tile="walls_exterior_roofs_05_064"/>
+  <tile enum="CapShallowRiseE2" tile="walls_exterior_roofs_05_065"/>
+  <tile enum="CapShallowFallE1" tile="walls_exterior_roofs_05_069"/>
+  <tile enum="CapShallowFallE2" tile="walls_exterior_roofs_05_068"/>
+ </tile_entry>
+ <tile_entry category="roof_caps">
+  <tile enum="CapRiseE1" tile="walls_exterior_roofs_07_000"/>
+  <tile enum="CapRiseE2" tile="walls_exterior_roofs_07_001"/>
+  <tile enum="CapRiseE3" tile="walls_exterior_roofs_07_002"/>
+  <tile enum="CapFallE1" tile="walls_exterior_roofs_07_008"/>
+  <tile enum="CapFallE2" tile="walls_exterior_roofs_07_009"/>
+  <tile enum="CapFallE3" tile="walls_exterior_roofs_07_010"/>
+  <tile enum="CapRiseS1" tile="walls_exterior_roofs_07_013"/>
+  <tile enum="CapRiseS2" tile="walls_exterior_roofs_07_012"/>
+  <tile enum="CapRiseS3" tile="walls_exterior_roofs_07_011"/>
+  <tile enum="CapFallS1" tile="walls_exterior_roofs_07_005"/>
+  <tile enum="CapFallS2" tile="walls_exterior_roofs_07_004"/>
+  <tile enum="CapFallS3" tile="walls_exterior_roofs_07_003"/>
+  <tile enum="PeakPt5S" tile="walls_exterior_roofs_07_007"/>
+  <tile enum="PeakPt5E" tile="walls_exterior_roofs_07_015"/>
+  <tile enum="PeakOnePt5S" tile="walls_exterior_roofs_07_006"/>
+  <tile enum="PeakOnePt5E" tile="walls_exterior_roofs_07_014"/>
+  <tile enum="PeakTwoPt5S" tile="walls_exterior_roofs_07_017"/>
+  <tile enum="PeakTwoPt5E" tile="walls_exterior_roofs_07_016"/>
+  <tile enum="CapGapS1" tile=""/>
+  <tile enum="CapGapS2" tile=""/>
+  <tile enum="CapGapS3" tile=""/>
+  <tile enum="CapGapE1" tile=""/>
+  <tile enum="CapGapE2" tile=""/>
+  <tile enum="CapGapE3" tile=""/>
+  <tile enum="CapShallowRiseS1" tile=""/>
+  <tile enum="CapShallowRiseS2" tile=""/>
+  <tile enum="CapShallowFallS1" tile=""/>
+  <tile enum="CapShallowFallS2" tile=""/>
+  <tile enum="CapShallowRiseE1" tile=""/>
+  <tile enum="CapShallowRiseE2" tile=""/>
+  <tile enum="CapShallowFallE1" tile=""/>
+  <tile enum="CapShallowFallE2" tile=""/>
+ </tile_entry>
+ <tile_entry category="roof_caps">
+  <tile enum="CapRiseE1" tile="walls_exterior_roofs_09_000"/>
+  <tile enum="CapRiseE2" tile="walls_exterior_roofs_09_001"/>
+  <tile enum="CapRiseE3" tile="walls_exterior_roofs_09_002"/>
+  <tile enum="CapFallE1" tile="walls_exterior_roofs_09_008"/>
+  <tile enum="CapFallE2" tile="walls_exterior_roofs_09_009"/>
+  <tile enum="CapFallE3" tile="walls_exterior_roofs_09_010"/>
+  <tile enum="CapRiseS1" tile="walls_exterior_roofs_09_013"/>
+  <tile enum="CapRiseS2" tile="walls_exterior_roofs_09_012"/>
+  <tile enum="CapRiseS3" tile="walls_exterior_roofs_09_011"/>
+  <tile enum="CapFallS1" tile="walls_exterior_roofs_09_005"/>
+  <tile enum="CapFallS2" tile="walls_exterior_roofs_09_004"/>
+  <tile enum="CapFallS3" tile="walls_exterior_roofs_09_003"/>
+  <tile enum="PeakPt5S" tile="walls_exterior_roofs_09_007"/>
+  <tile enum="PeakPt5E" tile="walls_exterior_roofs_09_015"/>
+  <tile enum="PeakOnePt5S" tile="walls_exterior_roofs_09_006"/>
+  <tile enum="PeakOnePt5E" tile="walls_exterior_roofs_09_014"/>
+  <tile enum="PeakTwoPt5S" tile="walls_exterior_roofs_09_017"/>
+  <tile enum="PeakTwoPt5E" tile="walls_exterior_roofs_09_016"/>
+  <tile enum="CapGapS1" tile=""/>
+  <tile enum="CapGapS2" tile=""/>
+  <tile enum="CapGapS3" tile="walls_exterior_house_02_001"/>
+  <tile enum="CapGapE1" tile=""/>
+  <tile enum="CapGapE2" tile=""/>
+  <tile enum="CapGapE3" tile="walls_exterior_house_02_000"/>
+  <tile enum="CapShallowRiseS1" tile="walls_exterior_roofs_09_054"/>
+  <tile enum="CapShallowRiseS2" tile="walls_exterior_roofs_09_055"/>
+  <tile enum="CapShallowFallS1" tile="walls_exterior_roofs_09_051"/>
+  <tile enum="CapShallowFallS2" tile="walls_exterior_roofs_09_050"/>
+  <tile enum="CapShallowRiseE1" tile="walls_exterior_roofs_09_048"/>
+  <tile enum="CapShallowRiseE2" tile="walls_exterior_roofs_09_049"/>
+  <tile enum="CapShallowFallE1" tile="walls_exterior_roofs_09_053"/>
+  <tile enum="CapShallowFallE2" tile="walls_exterior_roofs_09_052"/>
+ </tile_entry>
+ <tile_entry category="roof_caps">
+  <tile enum="CapRiseE1" tile="walls_exterior_roofs_09_024"/>
+  <tile enum="CapRiseE2" tile="walls_exterior_roofs_09_025"/>
+  <tile enum="CapRiseE3" tile="walls_exterior_roofs_09_026"/>
+  <tile enum="CapFallE1" tile="walls_exterior_roofs_09_032"/>
+  <tile enum="CapFallE2" tile="walls_exterior_roofs_09_033"/>
+  <tile enum="CapFallE3" tile="walls_exterior_roofs_09_034"/>
+  <tile enum="CapRiseS1" tile="walls_exterior_roofs_09_037"/>
+  <tile enum="CapRiseS2" tile="walls_exterior_roofs_09_036"/>
+  <tile enum="CapRiseS3" tile="walls_exterior_roofs_09_035"/>
+  <tile enum="CapFallS1" tile="walls_exterior_roofs_09_029"/>
+  <tile enum="CapFallS2" tile="walls_exterior_roofs_09_028"/>
+  <tile enum="CapFallS3" tile="walls_exterior_roofs_09_027"/>
+  <tile enum="PeakPt5S" tile="walls_exterior_roofs_09_031"/>
+  <tile enum="PeakPt5E" tile="walls_exterior_roofs_09_039"/>
+  <tile enum="PeakOnePt5S" tile="walls_exterior_roofs_09_030"/>
+  <tile enum="PeakOnePt5E" tile="walls_exterior_roofs_09_038"/>
+  <tile enum="PeakTwoPt5S" tile="walls_exterior_roofs_09_041"/>
+  <tile enum="PeakTwoPt5E" tile="walls_exterior_roofs_09_040"/>
+  <tile enum="CapGapS1" tile=""/>
+  <tile enum="CapGapS2" tile=""/>
+  <tile enum="CapGapS3" tile=""/>
+  <tile enum="CapGapE1" tile=""/>
+  <tile enum="CapGapE2" tile=""/>
+  <tile enum="CapGapE3" tile=""/>
+  <tile enum="CapShallowRiseS1" tile=""/>
+  <tile enum="CapShallowRiseS2" tile=""/>
+  <tile enum="CapShallowFallS1" tile=""/>
+  <tile enum="CapShallowFallS2" tile=""/>
+  <tile enum="CapShallowRiseE1" tile=""/>
+  <tile enum="CapShallowRiseE2" tile=""/>
+  <tile enum="CapShallowFallE1" tile=""/>
+  <tile enum="CapShallowFallE2" tile=""/>
+ </tile_entry>
+ <tile_entry category="roof_slopes">
+  <tile enum="SlopeS1" tile="roofs_02_032"/>
+  <tile enum="SlopeS2" tile="roofs_02_033"/>
+  <tile enum="SlopeS3" tile="roofs_02_034"/>
+  <tile enum="SlopeE1" tile="roofs_02_037"/>
+  <tile enum="SlopeE2" tile="roofs_02_036"/>
+  <tile enum="SlopeE3" tile="roofs_02_035"/>
+  <tile enum="SlopePt5S" tile="roofs_02_047" offset="1,1"/>
+  <tile enum="SlopePt5E" tile="roofs_02_046" offset="1,1"/>
+  <tile enum="SlopeOnePt5S" tile="roofs_02_047"/>
+  <tile enum="SlopeOnePt5E" tile="roofs_02_046"/>
+  <tile enum="SlopeTwoPt5S" tile="roofs_02_079"/>
+  <tile enum="SlopeTwoPt5E" tile="roofs_02_078"/>
+  <tile enum="ShallowSlopeW1" tile=""/>
+  <tile enum="ShallowSlopeW2" tile=""/>
+  <tile enum="ShallowSlopeE1" tile=""/>
+  <tile enum="ShallowSlopeE2" tile=""/>
+  <tile enum="ShallowSlopeN1" tile=""/>
+  <tile enum="ShallowSlopeN2" tile=""/>
+  <tile enum="ShallowSlopeS1" tile=""/>
+  <tile enum="ShallowSlopeS2" tile=""/>
+  <tile enum="Inner1" tile="roofs_02_043"/>
+  <tile enum="Inner2" tile="roofs_02_044"/>
+  <tile enum="Inner3" tile="roofs_02_045"/>
+  <tile enum="Outer1" tile="roofs_02_040"/>
+  <tile enum="Outer2" tile="roofs_02_041"/>
+  <tile enum="Outer3" tile="roofs_02_042"/>
+  <tile enum="InnerPt5" tile=""/>
+  <tile enum="InnerOnePt5" tile=""/>
+  <tile enum="InnerTwoPt5" tile=""/>
+  <tile enum="OuterPt5" tile=""/>
+  <tile enum="OuterOnePt5" tile=""/>
+  <tile enum="OuterTwoPt5" tile=""/>
+  <tile enum="CornerSW1" tile="roofs_02_056"/>
+  <tile enum="CornerSW2" tile="roofs_02_057"/>
+  <tile enum="CornerSW3" tile="roofs_02_058"/>
+  <tile enum="CornerNE1" tile="roofs_02_061"/>
+  <tile enum="CornerNE2" tile="roofs_02_060"/>
+  <tile enum="CornerNE3" tile="roofs_02_059"/>
+ </tile_entry>
+ <tile_entry category="roof_slopes">
+  <tile enum="SlopeS1" tile="roofs_05_032"/>
+  <tile enum="SlopeS2" tile="roofs_05_033"/>
+  <tile enum="SlopeS3" tile="roofs_05_034"/>
+  <tile enum="SlopeE1" tile="roofs_05_037"/>
+  <tile enum="SlopeE2" tile="roofs_05_036"/>
+  <tile enum="SlopeE3" tile="roofs_05_035"/>
+  <tile enum="SlopePt5S" tile=""/>
+  <tile enum="SlopePt5E" tile=""/>
+  <tile enum="SlopeOnePt5S" tile="roofs_05_047"/>
+  <tile enum="SlopeOnePt5E" tile="roofs_05_046"/>
+  <tile enum="SlopeTwoPt5S" tile="roofs_05_079"/>
+  <tile enum="SlopeTwoPt5E" tile="roofs_05_078"/>
+  <tile enum="ShallowSlopeW1" tile="roofs_05_115"/>
+  <tile enum="ShallowSlopeW2" tile="roofs_05_114"/>
+  <tile enum="ShallowSlopeE1" tile="roofs_05_112"/>
+  <tile enum="ShallowSlopeE2" tile="roofs_05_113"/>
+  <tile enum="ShallowSlopeN1" tile="roofs_05_116"/>
+  <tile enum="ShallowSlopeN2" tile="roofs_05_117"/>
+  <tile enum="ShallowSlopeS1" tile="roofs_05_119"/>
+  <tile enum="ShallowSlopeS2" tile="roofs_05_118"/>
+  <tile enum="Inner1" tile="roofs_05_043"/>
+  <tile enum="Inner2" tile="roofs_05_044"/>
+  <tile enum="Inner3" tile="roofs_05_045"/>
+  <tile enum="Outer1" tile="roofs_05_040"/>
+  <tile enum="Outer2" tile="roofs_05_041"/>
+  <tile enum="Outer3" tile="roofs_05_042"/>
+  <tile enum="InnerPt5" tile="roofs_05_075"/>
+  <tile enum="InnerOnePt5" tile="roofs_05_076"/>
+  <tile enum="InnerTwoPt5" tile="roofs_05_077"/>
+  <tile enum="OuterPt5" tile="roofs_05_072"/>
+  <tile enum="OuterOnePt5" tile="roofs_05_073"/>
+  <tile enum="OuterTwoPt5" tile="roofs_05_074"/>
+  <tile enum="CornerSW1" tile="roofs_05_056"/>
+  <tile enum="CornerSW2" tile="roofs_05_057"/>
+  <tile enum="CornerSW3" tile="roofs_05_058"/>
+  <tile enum="CornerNE1" tile="roofs_05_061"/>
+  <tile enum="CornerNE2" tile="roofs_05_060"/>
+  <tile enum="CornerNE3" tile="roofs_05_059"/>
+ </tile_entry>
+ <tile_entry category="roof_tops">
+  <tile enum="West1" tile="roofs_03_023" offset="-1,-1"/>
+  <tile enum="West2" tile="roofs_03_023" offset="-2,-2"/>
+  <tile enum="West3" tile="roofs_03_023"/>
+  <tile enum="North1" tile="roofs_03_023" offset="-1,-1"/>
+  <tile enum="North2" tile="roofs_03_023" offset="-2,-2"/>
+  <tile enum="North3" tile="roofs_03_023"/>
+ </tile_entry>
+ <tile_entry category="stairs">
+  <tile enum="West1" tile="fixtures_stairs_01_048"/>
+  <tile enum="West2" tile="fixtures_stairs_01_049"/>
+  <tile enum="West3" tile="fixtures_stairs_01_050"/>
+  <tile enum="North1" tile="fixtures_stairs_01_056"/>
+  <tile enum="North2" tile="fixtures_stairs_01_057"/>
+  <tile enum="North3" tile="fixtures_stairs_01_058"/>
+ </tile_entry>
+ <tile_entry category="windows">
+  <tile enum="West" tile="fixtures_windows_01_032"/>
+  <tile enum="North" tile="fixtures_windows_01_033"/>
+ </tile_entry>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="damaged_objects_01_013"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="damaged_objects_01_012"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="damaged_objects_01_019"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="damaged_objects_01_018"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="damaged_objects_01_021"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="damaged_objects_01_020"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_000"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_001"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_002"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_003"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_004"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_005"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_006"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_007"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_008"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_009"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_010"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_011"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_012"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_013"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_014"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_015"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="location_military_generic_01_000"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="location_military_generic_01_001"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="location_military_generic_01_002"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="location_military_generic_01_003"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="location_military_generic_01_004"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="location_military_generic_01_005"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_016"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_017"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_018"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_019"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_021"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_022"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_023"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_020"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_024"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_025"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_026"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_027"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_028"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_029"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_030"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_031"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_032"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_033"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_034"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_035"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_036"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_037"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_038"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_039"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_040"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_041"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_042"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_043"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_044"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_045"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_046"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_047"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_048"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_049"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_050"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_051"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_052"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_053"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_054"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_055"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_056"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_057"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_058"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_059"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_060"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_061"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_062"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks01_063"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_000"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_001"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_002"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_003"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_004"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_005"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_006"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_007"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_008"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_009"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_010"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_011"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_012"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_013"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_014"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_015"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_016"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_017"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_018"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_019"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_020"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_021"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_022"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_023"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_024"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_025"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_026"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_027"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_028"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_029"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_030"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_031"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_032"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_033"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_034"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_035"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_036"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_037"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_038"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_039"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_041"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_040"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_042"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_043"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_044"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_045"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_046"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_047"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_048"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_049"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_050"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_051"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_052"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_053"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_054"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_055"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_056"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_057"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_058"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_059"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_060"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_061"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_062"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="DylansJunkstacks02_063"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="1" y="0" name="junkyard_singles_ddd_tk_01_004"/>
+   <tile x="1" y="1" name="junkyard_singles_ddd_tk_01_003"/>
+   <tile x="1" y="2" name="junkyard_singles_ddd_tk_01_002"/>
+   <tile x="1" y="3" name="junkyard_singles_ddd_tk_01_001"/>
+   <tile x="1" y="4" name="junkyard_singles_ddd_tk_01_000"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="1" name="junkyard_singles_ddd_tk_01_008"/>
+   <tile x="1" y="1" name="junkyard_singles_ddd_tk_01_009"/>
+   <tile x="2" y="1" name="junkyard_singles_ddd_tk_01_010"/>
+   <tile x="3" y="1" name="junkyard_singles_ddd_tk_01_011"/>
+   <tile x="4" y="1" name="junkyard_singles_ddd_tk_01_012"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="1" y="0" name="junkyard_singles_ddd_tk_01_020"/>
+   <tile x="1" y="1" name="junkyard_singles_ddd_tk_01_019"/>
+   <tile x="1" y="2" name="junkyard_singles_ddd_tk_01_018"/>
+   <tile x="1" y="3" name="junkyard_singles_ddd_tk_01_017"/>
+   <tile x="1" y="4" name="junkyard_singles_ddd_tk_01_016"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="1" name="junkyard_singles_ddd_tk_01_024"/>
+   <tile x="1" y="1" name="junkyard_singles_ddd_tk_01_025"/>
+   <tile x="2" y="1" name="junkyard_singles_ddd_tk_01_026"/>
+   <tile x="3" y="1" name="junkyard_singles_ddd_tk_01_027"/>
+   <tile x="4" y="1" name="junkyard_singles_ddd_tk_01_028"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="1" y="0" name="junkyard_singles_ddd_tk_01_036"/>
+   <tile x="1" y="1" name="junkyard_singles_ddd_tk_01_035"/>
+   <tile x="1" y="2" name="junkyard_singles_ddd_tk_01_034"/>
+   <tile x="1" y="3" name="junkyard_singles_ddd_tk_01_033"/>
+   <tile x="1" y="4" name="junkyard_singles_ddd_tk_01_032"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="1" name="junkyard_singles_ddd_tk_01_040"/>
+   <tile x="1" y="1" name="junkyard_singles_ddd_tk_01_041"/>
+   <tile x="2" y="1" name="junkyard_singles_ddd_tk_01_042"/>
+   <tile x="3" y="1" name="junkyard_singles_ddd_tk_01_043"/>
+   <tile x="4" y="1" name="junkyard_singles_ddd_tk_01_044"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="1" y="0" name="junkyard_singles_ddd_tk_02_004"/>
+   <tile x="1" y="1" name="junkyard_singles_ddd_tk_02_003"/>
+   <tile x="1" y="2" name="junkyard_singles_ddd_tk_02_002"/>
+   <tile x="1" y="3" name="junkyard_singles_ddd_tk_02_001"/>
+   <tile x="1" y="4" name="junkyard_singles_ddd_tk_02_000"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="1" name="junkyard_singles_ddd_tk_02_008"/>
+   <tile x="1" y="1" name="junkyard_singles_ddd_tk_02_009"/>
+   <tile x="2" y="1" name="junkyard_singles_ddd_tk_02_010"/>
+   <tile x="3" y="1" name="junkyard_singles_ddd_tk_02_011"/>
+   <tile x="4" y="1" name="junkyard_singles_ddd_tk_02_012"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="1" y="0" name="junkyard_singles_ddd_tk_02_036"/>
+   <tile x="1" y="1" name="junkyard_singles_ddd_tk_02_035"/>
+   <tile x="1" y="2" name="junkyard_singles_ddd_tk_02_034"/>
+   <tile x="1" y="3" name="junkyard_singles_ddd_tk_02_033"/>
+   <tile x="1" y="4" name="junkyard_singles_ddd_tk_02_032"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="1" name="junkyard_singles_ddd_tk_02_040"/>
+   <tile x="1" y="1" name="junkyard_singles_ddd_tk_02_041"/>
+   <tile x="2" y="1" name="junkyard_singles_ddd_tk_02_042"/>
+   <tile x="3" y="1" name="junkyard_singles_ddd_tk_02_043"/>
+   <tile x="4" y="1" name="junkyard_singles_ddd_tk_02_044"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="1" y="0" name="junkyard_singles_ddd_tk_03_020"/>
+   <tile x="1" y="1" name="junkyard_singles_ddd_tk_03_019"/>
+   <tile x="1" y="2" name="junkyard_singles_ddd_tk_03_018"/>
+   <tile x="1" y="3" name="junkyard_singles_ddd_tk_03_017"/>
+   <tile x="1" y="4" name="junkyard_singles_ddd_tk_03_016"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="1" name="junkyard_singles_ddd_tk_03_024"/>
+   <tile x="1" y="1" name="junkyard_singles_ddd_tk_03_025"/>
+   <tile x="2" y="1" name="junkyard_singles_ddd_tk_03_026"/>
+   <tile x="3" y="1" name="junkyard_singles_ddd_tk_03_027"/>
+   <tile x="4" y="1" name="junkyard_singles_ddd_tk_03_028"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="3" name="junkyard_tk_01_008"/>
+   <tile x="1" y="0" name="junkyard_tk_01_012"/>
+   <tile x="1" y="1" name="junkyard_tk_01_011"/>
+   <tile x="1" y="2" name="junkyard_tk_01_010"/>
+   <tile x="1" y="3" name="junkyard_tk_01_009"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="1" name="junkyard_tk_01_024"/>
+   <tile x="1" y="1" name="junkyard_tk_01_025"/>
+   <tile x="2" y="1" name="junkyard_tk_01_026"/>
+   <tile x="3" y="0" name="junkyard_tk_01_028"/>
+   <tile x="3" y="1" name="junkyard_tk_01_027"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="junkyard_tk_01_003"/>
+   <tile x="0" y="1" name="junkyard_tk_01_002"/>
+   <tile x="0" y="2" name="junkyard_tk_01_001"/>
+   <tile x="0" y="3" name="junkyard_tk_01_000"/>
+   <tile x="1" y="0" name="junkyard_tk_01_007"/>
+   <tile x="1" y="1" name="junkyard_tk_01_006"/>
+   <tile x="1" y="2" name="junkyard_tk_01_005"/>
+   <tile x="1" y="3" name="junkyard_tk_01_004"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="junkyard_tk_01_020"/>
+   <tile x="0" y="1" name="junkyard_tk_01_016"/>
+   <tile x="1" y="0" name="junkyard_tk_01_021"/>
+   <tile x="1" y="1" name="junkyard_tk_01_017"/>
+   <tile x="2" y="0" name="junkyard_tk_01_022"/>
+   <tile x="2" y="1" name="junkyard_tk_01_018"/>
+   <tile x="3" y="0" name="junkyard_tk_01_023"/>
+   <tile x="3" y="1" name="junkyard_tk_01_019"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="1" y="0" name="junkyard_singles_ddd_tk_03_004"/>
+   <tile x="1" y="1" name="junkyard_singles_ddd_tk_03_003"/>
+   <tile x="1" y="2" name="junkyard_singles_ddd_tk_03_002"/>
+   <tile x="1" y="3" name="junkyard_singles_ddd_tk_03_001"/>
+   <tile x="1" y="4" name="junkyard_singles_ddd_tk_03_000"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="1" name="junkyard_singles_ddd_tk_03_008"/>
+   <tile x="1" y="1" name="junkyard_singles_ddd_tk_03_009"/>
+   <tile x="2" y="1" name="junkyard_singles_ddd_tk_03_010"/>
+   <tile x="3" y="1" name="junkyard_singles_ddd_tk_03_011"/>
+   <tile x="4" y="1" name="junkyard_singles_ddd_tk_03_012"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="3" name="junkyard_tk_01_040"/>
+   <tile x="1" y="0" name="junkyard_tk_01_044"/>
+   <tile x="1" y="1" name="junkyard_tk_01_043"/>
+   <tile x="1" y="2" name="junkyard_tk_01_042"/>
+   <tile x="1" y="3" name="junkyard_tk_01_041"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="1" name="junkyard_tk_01_056"/>
+   <tile x="1" y="1" name="junkyard_tk_01_057"/>
+   <tile x="2" y="1" name="junkyard_tk_01_058"/>
+   <tile x="3" y="0" name="junkyard_tk_01_060"/>
+   <tile x="3" y="1" name="junkyard_tk_01_059"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="junkyard_tk_01_035"/>
+   <tile x="0" y="1" name="junkyard_tk_01_034"/>
+   <tile x="0" y="2" name="junkyard_tk_01_033"/>
+   <tile x="0" y="3" name="junkyard_tk_01_032"/>
+   <tile x="1" y="0" name="junkyard_tk_01_039"/>
+   <tile x="1" y="1" name="junkyard_tk_01_038"/>
+   <tile x="1" y="2" name="junkyard_tk_01_037"/>
+   <tile x="1" y="3" name="junkyard_tk_01_036"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="junkyard_tk_01_052"/>
+   <tile x="0" y="1" name="junkyard_tk_01_048"/>
+   <tile x="1" y="0" name="junkyard_tk_01_053"/>
+   <tile x="1" y="1" name="junkyard_tk_01_049"/>
+   <tile x="2" y="0" name="junkyard_tk_01_054"/>
+   <tile x="2" y="1" name="junkyard_tk_01_050"/>
+   <tile x="3" y="0" name="junkyard_tk_01_055"/>
+   <tile x="3" y="1" name="junkyard_tk_01_051"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="3" name="junkyard_tk_01_072"/>
+   <tile x="1" y="0" name="junkyard_tk_01_076"/>
+   <tile x="1" y="1" name="junkyard_tk_01_075"/>
+   <tile x="1" y="2" name="junkyard_tk_01_074"/>
+   <tile x="1" y="3" name="junkyard_tk_01_073"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="1" name="junkyard_tk_01_088"/>
+   <tile x="1" y="1" name="junkyard_tk_01_089"/>
+   <tile x="2" y="1" name="junkyard_tk_01_090"/>
+   <tile x="3" y="0" name="junkyard_tk_01_092"/>
+   <tile x="3" y="1" name="junkyard_tk_01_091"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="junkyard_tk_01_067"/>
+   <tile x="0" y="1" name="junkyard_tk_01_066"/>
+   <tile x="0" y="2" name="junkyard_tk_01_065"/>
+   <tile x="0" y="3" name="junkyard_tk_01_064"/>
+   <tile x="1" y="0" name="junkyard_tk_01_071"/>
+   <tile x="1" y="1" name="junkyard_tk_01_070"/>
+   <tile x="1" y="2" name="junkyard_tk_01_069"/>
+   <tile x="1" y="3" name="junkyard_tk_01_068"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="junkyard_tk_01_084"/>
+   <tile x="0" y="1" name="junkyard_tk_01_080"/>
+   <tile x="1" y="0" name="junkyard_tk_01_085"/>
+   <tile x="1" y="1" name="junkyard_tk_01_081"/>
+   <tile x="2" y="0" name="junkyard_tk_01_086"/>
+   <tile x="2" y="1" name="junkyard_tk_01_082"/>
+   <tile x="3" y="0" name="junkyard_tk_01_087"/>
+   <tile x="3" y="1" name="junkyard_tk_01_083"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="1" y="0" name="junkyard_singles_ddd_tk_03_036"/>
+   <tile x="1" y="1" name="junkyard_singles_ddd_tk_03_035"/>
+   <tile x="1" y="2" name="junkyard_singles_ddd_tk_03_034"/>
+   <tile x="1" y="3" name="junkyard_singles_ddd_tk_03_033"/>
+   <tile x="1" y="4" name="junkyard_singles_ddd_tk_03_032"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="1" name="junkyard_singles_ddd_tk_03_040"/>
+   <tile x="1" y="1" name="junkyard_singles_ddd_tk_03_041"/>
+   <tile x="2" y="1" name="junkyard_singles_ddd_tk_03_042"/>
+   <tile x="3" y="1" name="junkyard_singles_ddd_tk_03_043"/>
+   <tile x="4" y="1" name="junkyard_singles_ddd_tk_03_044"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="melos_tiles_walls_garage_01_066"/>
+   <tile x="0" y="1" name="melos_tiles_walls_garage_01_065"/>
+   <tile x="0" y="2" name="melos_tiles_walls_garage_01_064"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="melos_tiles_walls_garage_01_067"/>
+   <tile x="1" y="0" name="melos_tiles_walls_garage_01_068"/>
+   <tile x="2" y="0" name="melos_tiles_walls_garage_01_069"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="furniture_storage_02_001"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="furniture_storage_02_000"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="furniture_storage_02_003"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="furniture_storage_02_002"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="furniture_shelving_01_029"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="furniture_shelving_01_028"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="furniture_shelving_01_030"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="furniture_shelving_01_031"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="furniture_shelving_01_025"/>
+   <tile x="0" y="1" name="furniture_shelving_01_024"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="furniture_shelving_01_026"/>
+   <tile x="1" y="0" name="furniture_shelving_01_027"/>
+  </entry>
+ </furniture>
+ <furniture corners="true">
+  <entry orient="W">
+   <tile x="0" y="0" name="fixtures_counters_01_035"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="fixtures_counters_01_037"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="fixtures_counters_01_039"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="fixtures_counters_01_033"/>
+  </entry>
+  <entry orient="SW">
+   <tile x="0" y="0" name="fixtures_counters_01_034"/>
+  </entry>
+  <entry orient="NW">
+   <tile x="0" y="0" name="fixtures_counters_01_036"/>
+  </entry>
+  <entry orient="NE">
+   <tile x="0" y="0" name="fixtures_counters_01_038"/>
+  </entry>
+  <entry orient="SE">
+   <tile x="0" y="0" name="fixtures_counters_01_032"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="fixtures_sinks_01_032"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="fixtures_sinks_01_033"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="fixtures_sinks_01_034"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="fixtures_sinks_01_035"/>
+  </entry>
+ </furniture>
+ <furniture layer="WallFurniture">
+  <entry orient="W">
+   <tile x="0" y="0" name="lighting_indoor_01_001"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="lighting_indoor_01_000"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="lighting_indoor_01_002"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="lighting_indoor_01_003"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="location_business_machinery_01_019"/>
+   <tile x="0" y="1" name="location_business_machinery_01_018"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="location_business_machinery_01_016"/>
+   <tile x="1" y="0" name="location_business_machinery_01_017"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="location_business_machinery_01_023"/>
+   <tile x="0" y="1" name="location_business_machinery_01_022"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="location_business_machinery_01_020"/>
+   <tile x="1" y="0" name="location_business_machinery_01_021"/>
+  </entry>
+ </furniture>
+ <furniture layer="WallFurniture">
+  <entry orient="W">
+   <tile x="0" y="0" name="location_business_machinery_01_027"/>
+   <tile x="0" y="1" name="location_business_machinery_01_026"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="location_business_machinery_01_024"/>
+   <tile x="1" y="0" name="location_business_machinery_01_025"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="edit_ddd_RUS_location_business_machinery_02_001"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="edit_ddd_RUS_location_business_machinery_02_002"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="edit_ddd_RUS_location_business_machinery_02_003"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="edit_ddd_RUS_location_business_machinery_02_000"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="location_business_machinery_01_033"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="location_business_machinery_01_032"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="location_business_machinery_01_035"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="location_business_machinery_01_034"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="overlay_grime_floor_01_042"/>
+   <tile x="0" y="1" name="overlay_grime_floor_01_041"/>
+   <tile x="0" y="2" name="overlay_grime_floor_01_040"/>
+   <tile x="0" y="3" name="overlay_grime_floor_01_035"/>
+   <tile x="1" y="0" name="overlay_grime_floor_01_034"/>
+   <tile x="1" y="1" name="overlay_grime_floor_01_033"/>
+   <tile x="1" y="2" name="overlay_grime_floor_01_032"/>
+   <tile x="1" y="3" name="overlay_grime_floor_01_027"/>
+   <tile x="2" y="0" name="overlay_grime_floor_01_026"/>
+   <tile x="2" y="1" name="overlay_grime_floor_01_025"/>
+   <tile x="2" y="2" name="overlay_grime_floor_01_024"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="overlay_grime_floor_01_017"/>
+   <tile x="0" y="1" name="overlay_grime_floor_01_016"/>
+   <tile x="1" y="0" name="overlay_grime_floor_01_018"/>
+   <tile x="1" y="1" name="overlay_grime_floor_01_019"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="overlay_grime_floor_01_013"/>
+   <tile x="1" y="0" name="overlay_grime_floor_01_014"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="overlay_grime_floor_01_015"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="overlay_grime_floor_01_012"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="overlay_grime_floor_01_021"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="overlay_grime_floor_01_020"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="overlay_grime_floor_01_022"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="overlay_grime_floor_01_023"/>
+  </entry>
+ </furniture>
+ <furniture corners="true">
+  <entry orient="W">
+   <tile x="0" y="0" name="fixtures_counters_01_003"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="fixtures_counters_01_005"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="fixtures_counters_01_007"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="fixtures_counters_01_001"/>
+  </entry>
+  <entry orient="SW">
+   <tile x="0" y="0" name="fixtures_counters_01_002"/>
+  </entry>
+  <entry orient="NW">
+   <tile x="0" y="0" name="fixtures_counters_01_004"/>
+  </entry>
+  <entry orient="NE">
+   <tile x="0" y="0" name="fixtures_counters_01_006"/>
+  </entry>
+  <entry orient="SE">
+   <tile x="0" y="0" name="fixtures_counters_01_000"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="fixtures_sinks_01_008"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="fixtures_sinks_01_009"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="fixtures_sinks_01_010"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="fixtures_sinks_01_011"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="furniture_tables_high_01_007"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="furniture_seating_indoor_01_053"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="furniture_seating_indoor_01_054"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="furniture_seating_indoor_01_052"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="furniture_seating_indoor_01_055"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="appliances_cooking_01_029"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="appliances_cooking_01_028"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="appliances_cooking_01_030"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="appliances_cooking_01_031"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="appliances_refrigeration_01_024"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="appliances_refrigeration_01_025"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="appliances_refrigeration_01_026"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="appliances_refrigeration_01_027"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="appliances_cooking_01_057"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="appliances_cooking_01_056"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="appliances_cooking_01_058"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="appliances_cooking_01_059"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="location_business_office_generic_01_001"/>
+   <tile x="0" y="1" name="location_business_office_generic_01_002"/>
+   <tile x="0" y="2" name="location_business_office_generic_01_000"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="location_business_office_generic_01_005"/>
+   <tile x="1" y="0" name="location_business_office_generic_01_004"/>
+   <tile x="2" y="0" name="location_business_office_generic_01_006"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="location_business_office_generic_01_014"/>
+   <tile x="0" y="1" name="location_business_office_generic_01_012"/>
+   <tile x="0" y="2" name="location_business_office_generic_01_013"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="location_business_office_generic_01_008"/>
+   <tile x="1" y="0" name="location_business_office_generic_01_009"/>
+   <tile x="2" y="0" name="location_business_office_generic_01_010"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="location_business_office_generic_01_041"/>
+   <tile x="0" y="1" name="location_business_office_generic_01_040"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="location_business_office_generic_01_042"/>
+   <tile x="1" y="0" name="location_business_office_generic_01_043"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="location_business_office_generic_01_047"/>
+   <tile x="0" y="1" name="location_business_office_generic_01_046"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="location_business_office_generic_01_044"/>
+   <tile x="1" y="0" name="location_business_office_generic_01_045"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="location_business_office_generic_01_017"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="location_business_office_generic_01_016"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="location_business_office_generic_01_025"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="location_business_office_generic_01_024"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="location_business_office_ddd_01_044"/>
+  </entry>
+ </furniture>
+ <furniture layer="WallFurniture">
+  <entry orient="W">
+   <tile x="0" y="0" name="location_business_office_generic_01_037"/>
+   <tile x="0" y="1" name="location_business_office_generic_01_036"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="location_business_office_generic_01_038"/>
+   <tile x="1" y="0" name="location_business_office_generic_01_039"/>
+  </entry>
+ </furniture>
+ <furniture layer="WallFurniture">
+  <entry orient="W">
+   <tile x="0" y="0" name="location_business_office_generic_01_015"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="location_business_office_generic_01_007"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="location_business_office_generic_01_048"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="location_business_office_generic_01_049"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="furniture_shelving_01_041"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="furniture_shelving_01_040"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="furniture_shelving_01_042"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="furniture_shelving_01_043"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="furniture_seating_indoor_01_049"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="furniture_seating_indoor_01_050"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="furniture_seating_indoor_01_048"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="furniture_seating_indoor_01_051"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="appliances_com_01_073"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="appliances_com_01_072"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="appliances_com_01_075"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="appliances_com_01_074"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="location_community_medical_01_057"/>
+   <tile x="0" y="1" name="location_community_medical_01_056"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="location_community_medical_01_058"/>
+   <tile x="1" y="0" name="location_community_medical_01_059"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="location_community_medical_01_061"/>
+   <tile x="0" y="1" name="location_community_medical_01_060"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="location_community_medical_01_062"/>
+   <tile x="1" y="0" name="location_community_medical_01_063"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="fixtures_bathroom_01_044"/>
+   <tile x="0" y="1" name="fixtures_bathroom_01_045"/>
+   <tile x="1" y="0" name="fixtures_bathroom_01_046"/>
+   <tile x="1" y="1" name="fixtures_bathroom_01_047"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="fixtures_bathroom_01_040"/>
+   <tile x="0" y="1" name="fixtures_bathroom_01_042"/>
+   <tile x="1" y="0" name="fixtures_bathroom_01_041"/>
+   <tile x="1" y="1" name="fixtures_bathroom_01_043"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="fixtures_bathroom_01_045"/>
+   <tile x="1" y="0" name="fixtures_bathroom_01_046"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="fixtures_bathroom_01_041"/>
+   <tile x="0" y="1" name="fixtures_bathroom_01_042"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="fixtures_bathroom_01_048"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="fixtures_bathroom_01_049"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="fixtures_bathroom_01_009"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="fixtures_bathroom_01_008"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="fixtures_bathroom_01_011"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="fixtures_bathroom_01_010"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="fixtures_bathroom_01_001"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="fixtures_bathroom_01_000"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="fixtures_bathroom_01_002"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="fixtures_bathroom_01_003"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="fixtures_sinks_01_015"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="fixtures_sinks_01_014"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="fixtures_sinks_01_031"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="fixtures_sinks_01_030"/>
+  </entry>
+ </furniture>
+ <furniture layer="WallFurniture">
+  <entry orient="W">
+   <tile x="0" y="0" name="fixtures_bathroom_01_017"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="fixtures_bathroom_01_016"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="fixtures_bathroom_01_015"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="fixtures_bathroom_01_014"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="fixtures_bathroom_01_033"/>
+   <tile x="1" y="0" name="fixtures_windows_curtains_01_008"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="fixtures_bathroom_01_032"/>
+   <tile x="0" y="1" name="fixtures_windows_curtains_01_010"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="furniture_storage_02_012"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="furniture_storage_02_013"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="furniture_storage_02_014"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="furniture_storage_02_015"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="furniture_seating_indoor_03_000"/>
+   <tile x="1" y="0" name="furniture_seating_indoor_03_001"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="furniture_seating_indoor_03_003"/>
+   <tile x="0" y="1" name="furniture_seating_indoor_03_002"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="vegetation_indoor_01_001"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="melos_tiles_gardencenter_plants_02_002"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="location_shop_accessories_01_016"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="location_shop_accessories_01_017"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="location_shop_accessories_01_028"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="location_shop_accessories_01_029"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="location_shop_accessories_01_018"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="location_shop_accessories_01_019"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="location_shop_accessories_01_030"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="location_shop_accessories_01_031"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="street_decoration_01_038"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="street_decoration_01_039"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="industry_01_005"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="industry_01_004"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="industry_01_022"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="industry_01_023"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="industry_02_068"/>
+   <tile x="0" y="1" name="industry_02_064"/>
+   <tile x="1" y="0" name="industry_02_069"/>
+   <tile x="1" y="1" name="industry_02_065"/>
+   <tile x="2" y="0" name="industry_02_070"/>
+   <tile x="2" y="1" name="industry_02_066"/>
+   <tile x="3" y="0" name="industry_02_071"/>
+   <tile x="3" y="1" name="industry_02_067"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="industry_02_074"/>
+   <tile x="0" y="1" name="industry_02_072"/>
+   <tile x="1" y="0" name="industry_02_075"/>
+   <tile x="1" y="1" name="industry_02_073"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="industry_tk_02_003"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="industry_tk_02_000"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="industry_tk_02_001"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="industry_tk_02_002"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="trash_containers_tk_01_025"/>
+   <tile x="0" y="1" name="trash_containers_tk_01_024"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="trash_containers_tk_01_026"/>
+   <tile x="1" y="0" name="trash_containers_tk_01_027"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="trash_containers_tk_01_029"/>
+   <tile x="0" y="1" name="trash_containers_tk_01_028"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="trash_containers_tk_01_030"/>
+   <tile x="1" y="0" name="trash_containers_tk_01_031"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="trash_containers_tk_01_017"/>
+   <tile x="0" y="1" name="trash_containers_tk_01_016"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="trash_containers_tk_01_018"/>
+   <tile x="1" y="0" name="trash_containers_tk_01_019"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="trash_containers_tk_01_021"/>
+   <tile x="0" y="1" name="trash_containers_tk_01_020"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="trash_containers_tk_01_022"/>
+   <tile x="1" y="0" name="trash_containers_tk_01_023"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="trash_containers_tk_01_033"/>
+   <tile x="0" y="1" name="trash_containers_tk_01_032"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="trash_containers_tk_01_034"/>
+   <tile x="1" y="0" name="trash_containers_tk_01_035"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="trash_containers_tk_01_037"/>
+   <tile x="0" y="1" name="trash_containers_tk_01_036"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="trash_containers_tk_01_038"/>
+   <tile x="1" y="0" name="trash_containers_tk_01_039"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="trash_containers_tk_01_041"/>
+   <tile x="0" y="1" name="trash_containers_tk_01_040"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="trash_containers_tk_01_042"/>
+   <tile x="1" y="0" name="trash_containers_tk_01_043"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="trash_containers_tk_01_045"/>
+   <tile x="0" y="1" name="trash_containers_tk_01_044"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="trash_containers_tk_01_046"/>
+   <tile x="1" y="0" name="trash_containers_tk_01_047"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="trash_containers_tk_01_049"/>
+   <tile x="0" y="1" name="trash_containers_tk_01_048"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="trash_containers_tk_01_050"/>
+   <tile x="1" y="0" name="trash_containers_tk_01_051"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="trash_containers_tk_01_053"/>
+   <tile x="0" y="1" name="trash_containers_tk_01_052"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="trash_containers_tk_01_054"/>
+   <tile x="1" y="0" name="trash_containers_tk_01_055"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="trashcontainers_01_019"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="trashcontainers_01_018"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="trashcontainers_01_024"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="trashcontainers_01_025"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="trashcontainers_01_026"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="trashcontainers_01_027"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="damaged_objects_01_009"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="damaged_objects_01_008"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="damaged_objects_01_011"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="damaged_objects_01_010"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="damaged_objects_01_026"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="damaged_objects_01_027"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="damaged_objects_01_014"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="edit_ddd_RUS_Street_01_072"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="edit_ddd_RUS_Street_01_073"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="edit_ddd_RUS_Street_01_074"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="edit_ddd_RUS_Street_01_075"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="edit_ddd_RUS_Street_01_083"/>
+   <tile x="0" y="1" name="edit_ddd_RUS_Street_01_080"/>
+   <tile x="1" y="0" name="edit_ddd_RUS_Street_01_081"/>
+   <tile x="1" y="1" name="edit_ddd_RUS_Street_01_082"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="edit_ddd_RUS_Street_01_084"/>
+   <tile x="1" y="0" name="edit_ddd_RUS_Street_01_085"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="edit_ddd_RUS_Street_01_076"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="edit_ddd_RUS_Street_01_077"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="edit_ddd_RUS_Street_01_086"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="edit_ddd_RUS_Street_01_087"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="edit_ddd_RUS_Street_01_030"/>
+  </entry>
+ </furniture>
+ <furniture layer="WallFurniture">
+  <entry orient="W">
+   <tile x="0" y="0" name="lighting_outdoor_01_033"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="lighting_outdoor_01_032"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="lighting_outdoor_01_037"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="lighting_outdoor_01_036"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="1" y="0" name="junkyard_singles_ddd_tk_02_020"/>
+   <tile x="1" y="1" name="junkyard_singles_ddd_tk_02_019"/>
+   <tile x="1" y="2" name="junkyard_singles_ddd_tk_02_018"/>
+   <tile x="1" y="3" name="junkyard_singles_ddd_tk_02_017"/>
+   <tile x="1" y="4" name="junkyard_singles_ddd_tk_02_016"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="1" name="junkyard_singles_ddd_tk_02_024"/>
+   <tile x="1" y="1" name="junkyard_singles_ddd_tk_02_025"/>
+   <tile x="2" y="1" name="junkyard_singles_ddd_tk_02_026"/>
+   <tile x="3" y="1" name="junkyard_singles_ddd_tk_02_027"/>
+   <tile x="4" y="1" name="junkyard_singles_ddd_tk_02_028"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="industry_tk_02_005"/>
+   <tile x="0" y="1" name="industry_tk_02_004"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="industry_tk_02_006"/>
+   <tile x="1" y="0" name="industry_tk_02_007"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="melos_tiles_walls_garage_01_082"/>
+   <tile x="0" y="1" name="melos_tiles_walls_garage_01_081"/>
+   <tile x="0" y="2" name="melos_tiles_walls_garage_01_080"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="melos_tiles_walls_garage_01_083"/>
+   <tile x="1" y="0" name="melos_tiles_walls_garage_01_084"/>
+   <tile x="2" y="0" name="melos_tiles_walls_garage_01_085"/>
+  </entry>
+ </furniture>
+ <furniture corners="true">
+  <entry orient="W">
+   <tile x="0" y="0" name="furniture_shelving_01_010"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="furniture_shelving_01_009"/>
+  </entry>
+  <entry orient="NW">
+   <tile x="0" y="0" name="furniture_shelving_01_008"/>
+  </entry>
+ </furniture>
+ <user_tiles>
+  <tile tile="fencing_ddd_01_024"/>
+  <tile tile="fencing_ddd_01_025"/>
+  <tile tile="fencing_ddd_01_026"/>
+  <tile tile="fencing_ddd_01_027"/>
+  <tile tile="fencing_ddd_01_028"/>
+  <tile tile="industry_railroad_05_038"/>
+  <tile tile="industry_railroad_05_040"/>
+  <tile tile="industry_railroad_05_041"/>
+  <tile tile="industry_railroad_05_042"/>
+  <tile tile="industry_railroad_05_043"/>
+  <tile tile="invisibles_tk_01_000"/>
+  <tile tile="invisibles_tk_01_001"/>
+  <tile tile="invisibles_tk_01_002"/>
+  <tile tile="junkyard_tk_02_006"/>
+  <tile tile="junkyard_tk_02_007"/>
+  <tile tile="junkyard_tk_02_008"/>
+  <tile tile="junkyard_tk_02_009"/>
+  <tile tile="junkyard_tk_02_010"/>
+  <tile tile="junkyard_tk_02_011"/>
+  <tile tile="junkyard_tk_02_012"/>
+  <tile tile="junkyard_tk_02_013"/>
+  <tile tile="junkyard_tk_02_014"/>
+  <tile tile="junkyard_tk_02_015"/>
+  <tile tile="junkyard_tk_02_016"/>
+  <tile tile="junkyard_tk_02_018"/>
+  <tile tile="junkyard_tk_02_021"/>
+  <tile tile="junkyard_tk_02_022"/>
+  <tile tile="junkyard_tk_02_023"/>
+  <tile tile="junkyard_tk_02_026"/>
+  <tile tile="junkyard_tk_02_027"/>
+  <tile tile="junkyard_tk_02_030"/>
+  <tile tile="junkyard_tk_02_031"/>
+  <tile tile="junkyard_tk_02_032"/>
+  <tile tile="junkyard_tk_02_033"/>
+  <tile tile="junkyard_tk_02_036"/>
+  <tile tile="junkyard_tk_02_037"/>
+  <tile tile="lighting_outdoor_01_017"/>
+  <tile tile="lighting_outdoor_01_019"/>
+  <tile tile="location_community_park_01_024"/>
+  <tile tile="location_community_park_01_025"/>
+  <tile tile="location_community_park_01_026"/>
+  <tile tile="location_community_park_01_027"/>
+  <tile tile="location_community_park_01_028"/>
+  <tile tile="location_community_park_01_029"/>
+  <tile tile="melos_tiles_junk_01_000"/>
+  <tile tile="melos_tiles_junk_01_001"/>
+  <tile tile="melos_tiles_junk_01_005"/>
+  <tile tile="melos_tiles_junk_01_016"/>
+  <tile tile="melos_tiles_junk_01_032"/>
+  <tile tile="melos_tiles_junk_01_040"/>
+  <tile tile="melos_tiles_junk_01_043"/>
+  <tile tile="trash_01_000"/>
+  <tile tile="trash_01_002"/>
+  <tile tile="trash_01_003"/>
+  <tile tile="trash_01_004"/>
+  <tile tile="trash_01_005"/>
+  <tile tile="trash_01_007"/>
+  <tile tile="trash_01_008"/>
+  <tile tile="trash_01_009"/>
+  <tile tile="trash_01_010"/>
+  <tile tile="trash_01_011"/>
+  <tile tile="trash_01_012"/>
+  <tile tile="trash_01_016"/>
+  <tile tile="trash_01_017"/>
+  <tile tile="trash_01_018"/>
+  <tile tile="trash_01_019"/>
+  <tile tile="trash_01_020"/>
+  <tile tile="trash_01_021"/>
+  <tile tile="trash_01_022"/>
+  <tile tile="trash_01_023"/>
+  <tile tile="trash_01_024"/>
+  <tile tile="trash_01_025"/>
+  <tile tile="trash_01_026"/>
+  <tile tile="trash_01_027"/>
+  <tile tile="trash_01_028"/>
+  <tile tile="trash_01_029"/>
+  <tile tile="trash_01_030"/>
+  <tile tile="trash_01_031"/>
+  <tile tile="trash_01_032"/>
+  <tile tile="trash_01_033"/>
+  <tile tile="trash_01_034"/>
+  <tile tile="trash_01_035"/>
+  <tile tile="trash_01_036"/>
+  <tile tile="trash_01_037"/>
+  <tile tile="trash_01_038"/>
+  <tile tile="trash_01_039"/>
+  <tile tile="trash_01_040"/>
+  <tile tile="trash_01_041"/>
+  <tile tile="trash_01_042"/>
+  <tile tile="trash_01_043"/>
+  <tile tile="trash_01_044"/>
+  <tile tile="trash_01_045"/>
+  <tile tile="trash_01_046"/>
+  <tile tile="trash_01_047"/>
+  <tile tile="trash_01_048"/>
+  <tile tile="trash_01_049"/>
+  <tile tile="trash_01_050"/>
+  <tile tile="trash_01_051"/>
+  <tile tile="trash_01_052"/>
+  <tile tile="trash_01_053"/>
+ </user_tiles>
+ <used_tiles>8 28 18 19 20 26 11 29 30 10 31 34 23 16 32 22 14 12 24 33 15 21 27 17 9 7 5 6 4 1 43 2 25 3 13 37 40 41 39 35 36 38</used_tiles>
+ <used_furniture>133 204 0 207 1 205 206 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 28 25 26 27 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 110 109 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 134 135 136 213 137 140 138 143 139 141 142 144 215 145 146 147 148 149 150 151 152 153 154 155 156 157 158 163 162 159 160 161 164 165 166 167 168 169 170 171 216 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 214 195 196 197 198 199 200 201 202 203 208 209 210 211 212</used_furniture>
+ <room Name="Office" InternalName="office" Color="255 0 0" InteriorWall="27" InteriorWallTrim="0" Floor="17" GrimeFloor="19" GrimeWall="20"/>
+ <room Name="Office2" InternalName="office" Color="255 150 0" InteriorWall="27" InteriorWallTrim="0" Floor="17" GrimeFloor="19" GrimeWall="20"/>
+ <room Name="Breakout" InternalName="breakroom" Color="255 200 0" InteriorWall="27" InteriorWallTrim="0" Floor="17" GrimeFloor="19" GrimeWall="20"/>
+ <room Name="Dining Room" InternalName="diningroom" Color="255 0 128" InteriorWall="28" InteriorWallTrim="0" Floor="18" GrimeFloor="19" GrimeWall="20"/>
+ <room Name="Bathroom" InternalName="bathroom" Color="255 128 0" InteriorWall="26" InteriorWallTrim="0" Floor="13" GrimeFloor="19" GrimeWall="20"/>
+ <room Name="Changeroom" InternalName="changeroom" Color="255 110 0" InteriorWall="26" InteriorWallTrim="0" Floor="13" GrimeFloor="19" GrimeWall="20"/>
+ <room Name="Kitchen" InternalName="kitchen" Color="0 255 0" InteriorWall="29" InteriorWallTrim="0" Floor="11" GrimeFloor="19" GrimeWall="20"/>
+ <room Name="Bedroom1" InternalName="bedroom" Color="0 0 255" InteriorWall="30" InteriorWallTrim="0" Floor="10" GrimeFloor="19" GrimeWall="20"/>
+ <room Name="Bedroom2" InternalName="bedroom" Color="0 64 255" InteriorWall="31" InteriorWallTrim="0" Floor="10" GrimeFloor="19" GrimeWall="20"/>
+ <room Name="Bedroom3" InternalName="bedroom" Color="0 128 255" InteriorWall="34" InteriorWallTrim="0" Floor="10" GrimeFloor="19" GrimeWall="20"/>
+ <room Name="Hallway for stairs" InternalName="livingroom" Color="200 200 200" InteriorWall="23" InteriorWallTrim="0" Floor="16" GrimeFloor="19" GrimeWall="20"/>
+ <room Name="Storage" InternalName="industrialstorage" Color="128 128 128" InteriorWall="33" InteriorWallTrim="21" Floor="15" GrimeFloor="19" GrimeWall="20"/>
+ <room Name="Gunstore" InternalName="gunstore" Color="0 255 255" InteriorWall="0" InteriorWallTrim="0" Floor="0" GrimeFloor="0" GrimeWall="0"/>
+ <room Name="Garage" InternalName="garagestorage" Color="255 255 0" InteriorWall="24" InteriorWallTrim="0" Floor="16" GrimeFloor="19" GrimeWall="20"/>
+ <floor>
+  <object type="wall" length="3" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="45" y="25" dir="N" Tile="0"/>
+  <object type="wall" length="3" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="45" y="30" dir="N" Tile="0"/>
+  <object type="wall" length="3" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="45" y="35" dir="N" Tile="0"/>
+  <object type="wall" length="3" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="35" y="35" dir="N" Tile="0"/>
+  <object type="wall" length="3" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="35" y="30" dir="N" Tile="0"/>
+  <object type="wall" length="3" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="35" y="25" dir="N" Tile="0"/>
+  <object type="furniture" FurnitureTiles="0" orient="N" x="9" y="42"/>
+  <object type="furniture" FurnitureTiles="1" orient="W" x="10" y="42"/>
+  <object type="furniture" FurnitureTiles="2" orient="W" x="3" y="45"/>
+  <object type="furniture" FurnitureTiles="3" orient="W" x="3" y="44"/>
+  <object type="furniture" FurnitureTiles="4" orient="W" x="3" y="43"/>
+  <object type="furniture" FurnitureTiles="5" orient="W" x="3" y="42"/>
+  <object type="furniture" FurnitureTiles="6" orient="W" x="4" y="45"/>
+  <object type="furniture" FurnitureTiles="7" orient="W" x="4" y="44"/>
+  <object type="furniture" FurnitureTiles="8" orient="W" x="4" y="42"/>
+  <object type="furniture" FurnitureTiles="9" orient="W" x="4" y="43"/>
+  <object type="furniture" FurnitureTiles="10" orient="W" x="5" y="43"/>
+  <object type="furniture" FurnitureTiles="11" orient="W" x="5" y="42"/>
+  <object type="furniture" FurnitureTiles="12" orient="W" x="5" y="45"/>
+  <object type="furniture" FurnitureTiles="13" orient="W" x="6" y="42"/>
+  <object type="furniture" FurnitureTiles="14" orient="W" x="5" y="44"/>
+  <object type="furniture" FurnitureTiles="15" orient="W" x="7" y="42"/>
+  <object type="furniture" FurnitureTiles="16" orient="W" x="17" y="42"/>
+  <object type="furniture" FurnitureTiles="17" orient="W" x="16" y="42"/>
+  <object type="wall" length="1" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="4" y="38" dir="W" Tile="0"/>
+  <object type="wall" length="1" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="5" y="37" dir="N" Tile="0"/>
+  <object type="furniture" FurnitureTiles="18" orient="W" x="4" y="37"/>
+  <object type="furniture" FurnitureTiles="19" orient="W" x="4" y="37"/>
+  <object type="furniture" FurnitureTiles="20" orient="W" x="4" y="37"/>
+  <object type="furniture" FurnitureTiles="2" orient="W" x="3" y="37"/>
+  <object type="furniture" FurnitureTiles="4" orient="W" x="5" y="37"/>
+  <object type="furniture" FurnitureTiles="21" orient="W" x="12" y="44"/>
+  <object type="furniture" FurnitureTiles="22" orient="W" x="12" y="43"/>
+  <object type="furniture" FurnitureTiles="23" orient="W" x="12" y="42"/>
+  <object type="furniture" FurnitureTiles="24" orient="W" x="3" y="36"/>
+  <object type="furniture" FurnitureTiles="25" orient="W" x="5" y="36"/>
+  <object type="furniture" FurnitureTiles="26" orient="W" x="3" y="38"/>
+  <object type="furniture" FurnitureTiles="27" orient="W" x="3" y="39"/>
+  <object type="furniture" FurnitureTiles="28" orient="W" x="4" y="36"/>
+  <object type="furniture" FurnitureTiles="26" orient="W" x="6" y="43"/>
+  <object type="furniture" FurnitureTiles="27" orient="W" x="15" y="42"/>
+  <object type="furniture" FurnitureTiles="29" orient="W" x="9" y="38"/>
+  <object type="furniture" FurnitureTiles="27" orient="W" x="9" y="39"/>
+  <object type="furniture" FurnitureTiles="30" orient="W" x="5" y="38"/>
+  <object type="furniture" FurnitureTiles="31" orient="W" x="4" y="38"/>
+  <object type="furniture" FurnitureTiles="32" orient="W" x="6" y="36"/>
+  <object type="furniture" FurnitureTiles="33" orient="W" x="7" y="36"/>
+  <object type="furniture" FurnitureTiles="34" orient="W" x="6" y="37"/>
+  <object type="furniture" FurnitureTiles="35" orient="W" x="8" y="36"/>
+  <object type="furniture" FurnitureTiles="36" orient="W" x="7" y="37"/>
+  <object type="furniture" FurnitureTiles="37" orient="W" x="14" y="42"/>
+  <object type="furniture" FurnitureTiles="38" orient="W" x="6" y="45"/>
+  <object type="furniture" FurnitureTiles="39" orient="W" x="6" y="44"/>
+  <object type="furniture" FurnitureTiles="40" orient="W" x="7" y="43"/>
+  <object type="furniture" FurnitureTiles="41" orient="W" x="8" y="42"/>
+  <object type="furniture" FurnitureTiles="42" orient="W" x="7" y="45"/>
+  <object type="furniture" FurnitureTiles="43" orient="W" x="7" y="44"/>
+  <object type="furniture" FurnitureTiles="44" orient="W" x="8" y="43"/>
+  <object type="furniture" FurnitureTiles="45" orient="W" x="8" y="44"/>
+  <object type="furniture" FurnitureTiles="46" orient="W" x="8" y="45"/>
+  <object type="furniture" FurnitureTiles="47" orient="W" x="13" y="42"/>
+  <object type="furniture" FurnitureTiles="48" orient="W" x="17" y="43"/>
+  <object type="furniture" FurnitureTiles="49" orient="W" x="13" y="43"/>
+  <object type="furniture" FurnitureTiles="50" orient="W" x="14" y="43"/>
+  <object type="furniture" FurnitureTiles="51" orient="W" x="15" y="43"/>
+  <object type="furniture" FurnitureTiles="52" orient="W" x="16" y="43"/>
+  <object type="furniture" FurnitureTiles="53" orient="W" x="13" y="44"/>
+  <object type="furniture" FurnitureTiles="54" orient="W" x="12" y="45"/>
+  <object type="furniture" FurnitureTiles="55" orient="W" x="13" y="45"/>
+  <object type="furniture" FurnitureTiles="56" orient="W" x="17" y="45"/>
+  <object type="furniture" FurnitureTiles="57" orient="W" x="17" y="44"/>
+  <object type="furniture" FurnitureTiles="58" orient="W" x="14" y="44"/>
+  <object type="furniture" FurnitureTiles="59" orient="W" x="14" y="45"/>
+  <object type="furniture" FurnitureTiles="60" orient="W" x="15" y="45"/>
+  <object type="furniture" FurnitureTiles="61" orient="W" x="16" y="45"/>
+  <object type="furniture" FurnitureTiles="62" orient="W" x="15" y="44"/>
+  <object type="furniture" FurnitureTiles="63" orient="W" x="16" y="44"/>
+  <object type="furniture" FurnitureTiles="64" orient="W" x="18" y="42"/>
+  <object type="furniture" FurnitureTiles="65" orient="W" x="9" y="43"/>
+  <object type="furniture" FurnitureTiles="66" orient="W" x="21" y="42"/>
+  <object type="furniture" FurnitureTiles="67" orient="W" x="22" y="42"/>
+  <object type="furniture" FurnitureTiles="68" orient="W" x="21" y="43"/>
+  <object type="furniture" FurnitureTiles="69" orient="W" x="23" y="42"/>
+  <object type="furniture" FurnitureTiles="70" orient="W" x="24" y="42"/>
+  <object type="furniture" FurnitureTiles="71" orient="W" x="21" y="44"/>
+  <object type="furniture" FurnitureTiles="72" orient="W" x="22" y="43"/>
+  <object type="furniture" FurnitureTiles="73" orient="W" x="21" y="45"/>
+  <object type="furniture" FurnitureTiles="74" orient="W" x="23" y="43"/>
+  <object type="furniture" FurnitureTiles="75" orient="W" x="25" y="42"/>
+  <object type="furniture" FurnitureTiles="76" orient="W" x="26" y="42"/>
+  <object type="furniture" FurnitureTiles="77" orient="W" x="22" y="45"/>
+  <object type="furniture" FurnitureTiles="78" orient="W" x="22" y="44"/>
+  <object type="furniture" FurnitureTiles="79" orient="W" x="18" y="43"/>
+  <object type="furniture" FurnitureTiles="80" orient="W" x="24" y="44"/>
+  <object type="furniture" FurnitureTiles="81" orient="W" x="23" y="44"/>
+  <object type="furniture" FurnitureTiles="82" orient="W" x="24" y="43"/>
+  <object type="furniture" FurnitureTiles="83" orient="W" x="23" y="45"/>
+  <object type="furniture" FurnitureTiles="84" orient="W" x="24" y="45"/>
+  <object type="furniture" FurnitureTiles="85" orient="W" x="26" y="43"/>
+  <object type="furniture" FurnitureTiles="86" orient="W" x="25" y="43"/>
+  <object type="furniture" FurnitureTiles="87" orient="W" x="25" y="44"/>
+  <object type="furniture" FurnitureTiles="88" orient="W" x="26" y="44"/>
+  <object type="furniture" FurnitureTiles="89" orient="W" x="25" y="45"/>
+  <object type="furniture" FurnitureTiles="90" orient="W" x="26" y="45"/>
+  <object type="furniture" FurnitureTiles="91" orient="W" x="6" y="38"/>
+  <object type="furniture" FurnitureTiles="92" orient="W" x="3" y="33"/>
+  <object type="furniture" FurnitureTiles="93" orient="W" x="3" y="32"/>
+  <object type="furniture" FurnitureTiles="94" orient="W" x="3" y="31"/>
+  <object type="furniture" FurnitureTiles="95" orient="W" x="3" y="30"/>
+  <object type="furniture" FurnitureTiles="96" orient="W" x="4" y="30"/>
+  <object type="furniture" FurnitureTiles="97" orient="W" x="5" y="30"/>
+  <object type="furniture" FurnitureTiles="98" orient="W" x="4" y="31"/>
+  <object type="furniture" FurnitureTiles="99" orient="W" x="6" y="30"/>
+  <object type="furniture" FurnitureTiles="100" orient="W" x="7" y="30"/>
+  <object type="furniture" FurnitureTiles="101" orient="W" x="8" y="30"/>
+  <object type="furniture" FurnitureTiles="102" orient="W" x="8" y="31"/>
+  <object type="furniture" FurnitureTiles="103" orient="W" x="7" y="31"/>
+  <object type="furniture" FurnitureTiles="104" orient="W" x="5" y="31"/>
+  <object type="furniture" FurnitureTiles="105" orient="W" x="6" y="31"/>
+  <object type="furniture" FurnitureTiles="106" orient="W" x="5" y="32"/>
+  <object type="furniture" FurnitureTiles="107" orient="W" x="4" y="32"/>
+  <object type="furniture" FurnitureTiles="108" orient="W" x="4" y="33"/>
+  <object type="furniture" FurnitureTiles="109" orient="W" x="6" y="32"/>
+  <object type="furniture" FurnitureTiles="110" orient="W" x="8" y="34"/>
+  <object type="furniture" FurnitureTiles="111" orient="W" x="5" y="33"/>
+  <object type="furniture" FurnitureTiles="112" orient="W" x="6" y="33"/>
+  <object type="furniture" FurnitureTiles="113" orient="W" x="7" y="32"/>
+  <object type="furniture" FurnitureTiles="114" orient="W" x="8" y="32"/>
+  <object type="furniture" FurnitureTiles="115" orient="W" x="7" y="33"/>
+  <object type="furniture" FurnitureTiles="116" orient="W" x="8" y="33"/>
+  <object type="furniture" FurnitureTiles="117" orient="W" x="3" y="24"/>
+  <object type="furniture" FurnitureTiles="118" orient="W" x="4" y="24"/>
+  <object type="furniture" FurnitureTiles="119" orient="W" x="5" y="24"/>
+  <object type="furniture" FurnitureTiles="120" orient="W" x="8" y="24"/>
+  <object type="furniture" FurnitureTiles="121" orient="W" x="3" y="25"/>
+  <object type="furniture" FurnitureTiles="122" orient="W" x="6" y="24"/>
+  <object type="furniture" FurnitureTiles="123" orient="W" x="7" y="24"/>
+  <object type="furniture" FurnitureTiles="124" orient="W" x="4" y="25"/>
+  <object type="furniture" FurnitureTiles="125" orient="W" x="4" y="28"/>
+  <object type="furniture" FurnitureTiles="126" orient="W" x="3" y="26"/>
+  <object type="furniture" FurnitureTiles="127" orient="W" x="3" y="27"/>
+  <object type="furniture" FurnitureTiles="128" orient="W" x="5" y="25"/>
+  <object type="furniture" FurnitureTiles="129" orient="W" x="4" y="26"/>
+  <object type="furniture" FurnitureTiles="130" orient="W" x="4" y="27"/>
+  <object type="furniture" FurnitureTiles="131" orient="W" x="5" y="27"/>
+  <object type="furniture" FurnitureTiles="132" orient="W" x="5" y="26"/>
+  <object type="furniture" FurnitureTiles="2" orient="W" x="6" y="25"/>
+  <object type="furniture" FurnitureTiles="3" orient="W" x="7" y="25"/>
+  <object type="furniture" FurnitureTiles="4" orient="W" x="8" y="25"/>
+  <object type="furniture" FurnitureTiles="5" orient="W" x="6" y="26"/>
+  <object type="furniture" FurnitureTiles="6" orient="W" x="6" y="27"/>
+  <object type="furniture" FurnitureTiles="7" orient="W" x="7" y="26"/>
+  <object type="furniture" FurnitureTiles="8" orient="W" x="8" y="26"/>
+  <object type="furniture" FurnitureTiles="9" orient="W" x="7" y="27"/>
+  <object type="furniture" FurnitureTiles="10" orient="W" x="8" y="27"/>
+  <object type="furniture" FurnitureTiles="133" orient="N" x="4" y="19"/>
+  <object type="furniture" FurnitureTiles="133" orient="W" x="2" y="17"/>
+  <object type="furniture" FurnitureTiles="134" orient="W" x="2" y="13"/>
+  <object type="furniture" FurnitureTiles="135" orient="W" x="4" y="15"/>
+  <object type="furniture" FurnitureTiles="135" orient="N" x="9" y="19"/>
+  <object type="furniture" FurnitureTiles="136" orient="N" x="14" y="19"/>
+  <object type="furniture" FurnitureTiles="137" orient="W" x="2" y="8"/>
+  <object type="furniture" FurnitureTiles="138" orient="W" x="8" y="2"/>
+  <object type="furniture" FurnitureTiles="139" orient="N" x="11" y="15"/>
+  <object type="furniture" FurnitureTiles="136" orient="W" x="4" y="11"/>
+  <object type="furniture" FurnitureTiles="139" orient="W" x="8" y="13"/>
+  <object type="furniture" FurnitureTiles="140" orient="W" x="2" y="3"/>
+  <object type="furniture" FurnitureTiles="141" orient="W" x="8" y="9"/>
+  <object type="furniture" FurnitureTiles="142" orient="W" x="8" y="5"/>
+  <object type="furniture" FurnitureTiles="140" orient="N" x="19" y="19"/>
+  <object type="furniture" FurnitureTiles="141" orient="N" x="15" y="15"/>
+  <object type="furniture" FurnitureTiles="142" orient="N" x="19" y="15"/>
+  <object type="furniture" FurnitureTiles="142" orient="W" x="21" y="9"/>
+  <object type="furniture" FurnitureTiles="139" orient="W" x="19" y="9"/>
+  <object type="furniture" FurnitureTiles="141" orient="W" x="17" y="9"/>
+  <object type="furniture" FurnitureTiles="139" orient="N" x="19" y="7"/>
+  <object type="furniture" FurnitureTiles="142" orient="N" x="15" y="7"/>
+  <object type="furniture" FurnitureTiles="142" orient="W" x="14" y="9"/>
+  <object type="furniture" FurnitureTiles="18" orient="S" x="16" y="9"/>
+  <object type="furniture" FurnitureTiles="19" orient="E" x="16" y="9"/>
+  <object type="furniture" FurnitureTiles="20" orient="E" x="16" y="9"/>
+  <object type="wall" length="1" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="16" y="10" dir="W" Tile="0"/>
+  <object type="wall" length="1" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="17" y="9" dir="N" Tile="0"/>
+  <object type="furniture" FurnitureTiles="141" orient="N" x="19" y="5"/>
+  <object type="furniture" FurnitureTiles="143" orient="N" x="14" y="5"/>
+  <object type="furniture" FurnitureTiles="143" orient="W" x="12" y="9"/>
+  <object type="furniture" FurnitureTiles="137" orient="N" x="18" y="1"/>
+  <object type="furniture" FurnitureTiles="138" orient="N" x="13" y="1"/>
+  <object type="furniture" FurnitureTiles="144" orient="W" x="45" y="35"/>
+  <object type="furniture" FurnitureTiles="144" orient="W" x="45" y="30"/>
+  <object type="furniture" FurnitureTiles="144" orient="W" x="45" y="25"/>
+  <object type="furniture" FurnitureTiles="144" orient="W" x="35" y="35"/>
+  <object type="furniture" FurnitureTiles="144" orient="W" x="35" y="30"/>
+  <object type="furniture" FurnitureTiles="144" orient="W" x="35" y="25"/>
+  <object type="door" FrameTile="0" x="45" y="43" dir="W" Tile="1"/>
+  <object type="window" CurtainsTile="0" ShuttersTile="0" x="29" y="41" dir="N" Tile="43"/>
+  <object type="window" CurtainsTile="0" ShuttersTile="0" x="33" y="41" dir="N" Tile="43"/>
+  <object type="window" CurtainsTile="0" ShuttersTile="0" x="33" y="48" dir="N" Tile="43"/>
+  <object type="door" FrameTile="0" x="42" y="40" dir="W" Tile="2"/>
+  <object type="wall" length="2" InteriorTile="25" ExteriorTrim="0" InteriorTrim="0" x="35" y="41" dir="N" Tile="0"/>
+  <object type="wall" length="2" InteriorTile="25" ExteriorTrim="0" InteriorTrim="0" x="35" y="43" dir="W" Tile="0"/>
+  <object type="wall" length="2" InteriorTile="25" ExteriorTrim="0" InteriorTrim="0" x="37" y="43" dir="N" Tile="0"/>
+  <object type="wall" length="2" InteriorTile="25" ExteriorTrim="0" InteriorTrim="0" x="37" y="46" dir="N" Tile="0"/>
+  <object type="wall" length="1" InteriorTile="27" ExteriorTrim="0" InteriorTrim="0" x="37" y="45" dir="N" Tile="0"/>
+  <object type="door" FrameTile="0" x="37" y="45" dir="W" Tile="3"/>
+  <object type="furniture" FurnitureTiles="145" orient="S" x="43" y="38"/>
+  <object type="furniture" FurnitureTiles="145" orient="S" x="41" y="38"/>
+  <object type="wall" length="3" InteriorTile="25" ExteriorTrim="0" InteriorTrim="0" x="35" y="39" dir="W" Tile="0"/>
+  <object type="wall" length="2" InteriorTile="25" ExteriorTrim="0" InteriorTrim="0" x="39" y="39" dir="W" Tile="0"/>
+  <object type="door" FrameTile="0" x="38" y="39" dir="N" Tile="3"/>
+  <object type="furniture" FurnitureTiles="146" orient="S" x="42" y="38"/>
+  <object type="furniture" FurnitureTiles="146" orient="S" x="44" y="38"/>
+  <object type="furniture" FurnitureTiles="147" orient="E" x="37" y="23"/>
+  <object type="furniture" FurnitureTiles="147" orient="E" x="38" y="23"/>
+  <object type="furniture" FurnitureTiles="147" orient="E" x="40" y="23"/>
+  <object type="furniture" FurnitureTiles="147" orient="E" x="41" y="23"/>
+  <object type="furniture" FurnitureTiles="148" orient="N" x="43" y="23"/>
+  <object type="furniture" FurnitureTiles="149" orient="E" x="44" y="24"/>
+  <object type="furniture" FurnitureTiles="148" orient="NE" x="44" y="23"/>
+  <object type="furniture" FurnitureTiles="150" orient="E" x="44" y="33"/>
+  <object type="furniture" FurnitureTiles="150" orient="W" x="35" y="29"/>
+  <object type="furniture" FurnitureTiles="150" orient="E" x="44" y="44"/>
+  <object type="furniture" FurnitureTiles="150" orient="S" x="36" y="47"/>
+  <object type="furniture" FurnitureTiles="150" orient="W" x="42" y="39"/>
+  <object type="furniture" FurnitureTiles="151" orient="W" x="35" y="23"/>
+  <object type="furniture" FurnitureTiles="152" orient="W" x="35" y="23"/>
+  <object type="furniture" FurnitureTiles="153" orient="N" x="42" y="23"/>
+  <object type="furniture" FurnitureTiles="154" orient="N" x="36" y="23"/>
+  <object type="furniture" FurnitureTiles="146" orient="W" x="35" y="33"/>
+  <object type="furniture" FurnitureTiles="146" orient="W" x="35" y="34"/>
+  <object type="furniture" FurnitureTiles="146" orient="E" x="44" y="28"/>
+  <object type="furniture" FurnitureTiles="146" orient="E" x="44" y="29"/>
+  <object type="furniture" FurnitureTiles="155" orient="W" x="37" y="26"/>
+  <object type="furniture" FurnitureTiles="155" orient="N" x="41" y="31"/>
+  <object type="furniture" FurnitureTiles="155" orient="E" x="42" y="28"/>
+  <object type="furniture" FurnitureTiles="156" orient="W" x="37" y="32"/>
+  <object type="furniture" FurnitureTiles="156" orient="N" x="43" y="35"/>
+  <object type="furniture" FurnitureTiles="156" orient="E" x="37" y="36"/>
+  <object type="furniture" FurnitureTiles="156" orient="S" x="40" y="34"/>
+  <object type="furniture" FurnitureTiles="157" orient="W" x="41" y="37"/>
+  <object type="furniture" FurnitureTiles="157" orient="N" x="43" y="24"/>
+  <object type="wall" length="2" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="38" y="40" dir="N" Tile="0"/>
+  <object type="furniture" FurnitureTiles="158" orient="W" x="35" y="40"/>
+  <object type="furniture" FurnitureTiles="159" orient="W" x="35" y="40"/>
+  <object type="furniture" FurnitureTiles="160" orient="W" x="36" y="41"/>
+  <object type="furniture" FurnitureTiles="161" orient="W" x="35" y="41"/>
+  <object type="furniture" FurnitureTiles="161" orient="S" x="36" y="42"/>
+  <object type="furniture" FurnitureTiles="161" orient="E" x="37" y="41"/>
+  <object type="furniture" FurnitureTiles="161" orient="N" x="36" y="40"/>
+  <object type="furniture" FurnitureTiles="158" orient="NW" x="35" y="39"/>
+  <object type="furniture" FurnitureTiles="158" orient="N" x="36" y="39"/>
+  <object type="furniture" FurnitureTiles="162" orient="N" x="36" y="39"/>
+  <object type="furniture" FurnitureTiles="163" orient="N" x="37" y="39"/>
+  <object type="furniture" FurnitureTiles="164" orient="W" x="35" y="39"/>
+  <object type="window" CurtainsTile="0" ShuttersTile="0" x="28" y="45" dir="W" Tile="43"/>
+  <object type="window" CurtainsTile="0" ShuttersTile="0" x="31" y="48" dir="N" Tile="43"/>
+  <object type="door" FrameTile="0" x="29" y="44" dir="N" Tile="3"/>
+  <object type="furniture" FurnitureTiles="150" orient="N" x="28" y="44"/>
+  <object type="furniture" FurnitureTiles="165" orient="W" x="31" y="44"/>
+  <object type="furniture" FurnitureTiles="166" orient="E" x="34" y="46"/>
+  <object type="furniture" FurnitureTiles="166" orient="E" x="32" y="41"/>
+  <object type="furniture" FurnitureTiles="167" orient="W" x="28" y="41"/>
+  <object type="furniture" FurnitureTiles="167" orient="W" x="28" y="42"/>
+  <object type="furniture" FurnitureTiles="167" orient="W" x="28" y="43"/>
+  <object type="furniture" FurnitureTiles="168" orient="N" x="35" y="43"/>
+  <object type="furniture" FurnitureTiles="169" orient="N" x="30" y="41"/>
+  <object type="furniture" FurnitureTiles="169" orient="N" x="35" y="23"/>
+  <object type="furniture" FurnitureTiles="170" orient="W" x="38" y="42"/>
+  <object type="furniture" FurnitureTiles="171" orient="N" x="41" y="39"/>
+  <object type="furniture" FurnitureTiles="167" orient="W" x="28" y="47"/>
+  <object type="furniture" FurnitureTiles="167" orient="W" x="28" y="46"/>
+  <object type="furniture" FurnitureTiles="172" orient="W" x="28" y="44"/>
+  <object type="furniture" FurnitureTiles="173" orient="E" x="32" y="45"/>
+  <object type="furniture" FurnitureTiles="173" orient="W" x="33" y="46"/>
+  <object type="furniture" FurnitureTiles="173" orient="W" x="31" y="41"/>
+  <object type="furniture" FurnitureTiles="174" orient="W" x="31" y="45"/>
+  <object type="furniture" FurnitureTiles="174" orient="E" x="32" y="41"/>
+  <object type="furniture" FurnitureTiles="174" orient="E" x="34" y="46"/>
+  <object type="furniture" FurnitureTiles="161" orient="E" x="35" y="47"/>
+  <object type="furniture" FurnitureTiles="161" orient="E" x="35" y="46"/>
+  <object type="furniture" FurnitureTiles="175" orient="W" x="37" y="43"/>
+  <object type="window" CurtainsTile="0" ShuttersTile="0" x="38" y="48" dir="N" Tile="43"/>
+  <object type="window" CurtainsTile="0" ShuttersTile="0" x="45" y="42" dir="W" Tile="43"/>
+  <object type="window" CurtainsTile="0" ShuttersTile="0" x="45" y="44" dir="W" Tile="43"/>
+  <object type="door" FrameTile="0" x="40" y="47" dir="W" Tile="2"/>
+  <object type="door" FrameTile="0" x="43" y="45" dir="W" Tile="0"/>
+  <object type="wall" length="1" InteriorTile="26" ExteriorTrim="0" InteriorTrim="0" x="43" y="46" dir="W" Tile="0"/>
+  <object type="wall" length="1" InteriorTile="26" ExteriorTrim="0" InteriorTrim="0" x="43" y="47" dir="W" Tile="0"/>
+  <object type="furniture" FurnitureTiles="176" orient="N" x="43" y="39"/>
+  <object type="furniture" FurnitureTiles="177" orient="N" x="44" y="39"/>
+  <object type="furniture" FurnitureTiles="178" orient="N" x="43" y="40"/>
+  <object type="furniture" FurnitureTiles="178" orient="N" x="44" y="40"/>
+  <object type="furniture" FurnitureTiles="179" orient="S" x="44" y="41"/>
+  <object type="furniture" FurnitureTiles="180" orient="N" x="43" y="39"/>
+  <object type="furniture" FurnitureTiles="180" orient="N" x="44" y="39"/>
+  <object type="furniture" FurnitureTiles="181" orient="W" x="42" y="41"/>
+  <object type="furniture" FurnitureTiles="182" orient="S" x="43" y="41"/>
+  <object type="furniture" FurnitureTiles="183" orient="W" x="43" y="46"/>
+  <object type="furniture" FurnitureTiles="183" orient="W" x="43" y="47"/>
+  <object type="furniture" FurnitureTiles="184" orient="E" x="42" y="47"/>
+  <object type="furniture" FurnitureTiles="184" orient="E" x="42" y="46"/>
+  <object type="furniture" FurnitureTiles="185" orient="N" x="40" y="45"/>
+  <object type="furniture" FurnitureTiles="150" orient="W" x="40" y="46"/>
+  <object type="furniture" FurnitureTiles="150" orient="N" x="43" y="45"/>
+  <object type="furniture" FurnitureTiles="186" orient="N" x="31" y="44"/>
+  <object type="furniture" FurnitureTiles="187" orient="S" x="39" y="47"/>
+  <object type="furniture" FurnitureTiles="188" orient="N" x="43" y="42"/>
+  <object type="furniture" FurnitureTiles="189" orient="N" x="42" y="42"/>
+  <object type="furniture" FurnitureTiles="190" orient="W" x="45" y="46"/>
+  <object type="furniture" FurnitureTiles="191" orient="W" x="45" y="24"/>
+  <object type="furniture" FurnitureTiles="191" orient="W" x="45" y="38"/>
+  <object type="furniture" FurnitureTiles="192" orient="W" x="35" y="29"/>
+  <object type="furniture" FurnitureTiles="192" orient="N" x="35" y="28"/>
+  <object type="furniture" FurnitureTiles="193" orient="W" x="29" y="38"/>
+  <object type="furniture" FurnitureTiles="194" orient="W" x="33" y="22"/>
+  <object type="furniture" FurnitureTiles="194" orient="W" x="33" y="20"/>
+  <object type="furniture" FurnitureTiles="195" orient="W" x="45" y="23"/>
+  <object type="furniture" FurnitureTiles="196" orient="N" x="25" y="1"/>
+  <object type="furniture" FurnitureTiles="197" orient="N" x="27" y="1"/>
+  <object type="furniture" FurnitureTiles="198" orient="N" x="29" y="1"/>
+  <object type="furniture" FurnitureTiles="198" orient="N" x="27" y="4"/>
+  <object type="furniture" FurnitureTiles="198" orient="N" x="29" y="4"/>
+  <object type="furniture" FurnitureTiles="199" orient="N" x="31" y="1"/>
+  <object type="furniture" FurnitureTiles="199" orient="N" x="33" y="1"/>
+  <object type="furniture" FurnitureTiles="199" orient="S" x="29" y="7"/>
+  <object type="furniture" FurnitureTiles="200" orient="S" x="27" y="7"/>
+  <object type="furniture" FurnitureTiles="201" orient="N" x="44" y="42"/>
+  <object type="furniture" FurnitureTiles="202" orient="W" x="9" y="30"/>
+  <object type="furniture" FurnitureTiles="203" orient="W" x="7" y="40"/>
+  <object type="furniture" FurnitureTiles="204" orient="W" x="9" y="44"/>
+  <object type="furniture" FurnitureTiles="205" orient="W" x="9" y="33"/>
+  <object type="furniture" FurnitureTiles="206" orient="W" x="7" y="28"/>
+  <object type="furniture" FurnitureTiles="207" orient="W" x="5" y="34"/>
+  <object type="furniture" FurnitureTiles="208" orient="W" x="2" y="2"/>
+  <object type="furniture" FurnitureTiles="208" orient="E" x="3" y="2"/>
+  <object type="furniture" FurnitureTiles="208" orient="S" x="1" y="2"/>
+  <object type="furniture" FurnitureTiles="209" orient="W" x="0" y="0"/>
+  <object type="furniture" FurnitureTiles="209" orient="N" x="2" y="0"/>
+  <object type="furniture" FurnitureTiles="210" orient="N" x="2" y="1"/>
+  <object type="furniture" FurnitureTiles="208" orient="N" x="2" y="1"/>
+  <object type="furniture" FurnitureTiles="210" orient="E" x="7" y="8"/>
+  <object type="furniture" FurnitureTiles="210" orient="S" x="6" y="8"/>
+  <object type="furniture" FurnitureTiles="208" orient="W" x="6" y="7"/>
+  <object type="furniture" FurnitureTiles="211" orient="W" x="16" y="12"/>
+  <object type="furniture" FurnitureTiles="211" orient="W" x="9" y="26"/>
+  <object type="furniture" FurnitureTiles="212" orient="W" x="45" y="41"/>
+  <object type="furniture" FurnitureTiles="212" orient="W" x="45" y="28"/>
+  <rooms>
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,12,12,12,12,12,12,12,12,12,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,12,12,12,12,12,12,12,12,12,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,12,12,12,12,12,12,12,12,12,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,12,12,12,12,12,12,12,12,12,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,12,12,12,12,12,12,12,12,12,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,12,12,12,12,12,12,12,12,12,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,12,12,12,12,12,12,12,12,12,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,12,12,12,12,12,12,12,12,12,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,12,12,12,12,12,12,12,12,12,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,12,12,12,12,12,12,12,12,12,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,12,12,12,12,12,12,12,12,12,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,12,12,12,12,12,12,12,12,12,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,12,12,12,12,12,12,12,12,12,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,12,12,12,12,12,12,12,12,12,0,
+0,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,12,12,12,12,12,12,12,12,12,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,12,12,12,12,12,12,12,12,12,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,3,1,1,1,1,5,5,5,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,3,1,1,1,1,5,5,5,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,3,3,3,1,1,1,1,5,5,5,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,3,3,3,1,1,1,1,1,1,1,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,1,1,1,1,1,1,1,6,6,6,5,5,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,1,1,1,1,1,1,1,6,6,6,5,5,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,1,1,1,1,1,1,1,6,6,6,5,5,0
+</rooms>
+  <tiles layer="Floor">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,6,6,6,6,6,6,0,0,0,6,6,6,6,6,6,0,0,0,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,6,6,6,6,6,6,0,0,0,6,6,6,6,6,6,0,0,0,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,6,6,6,6,6,6,0,0,0,6,6,6,6,6,6,0,0,0,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,6,6,6,6,6,6,0,0,0,6,6,6,6,6,6,0,0,0,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</tiles>
+  <tiles layer="FloorFurniture">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,69,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,79,0,0,0,0,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,69,0,0,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,65,0,0,63,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,83,0,0,82,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,80,0,0,0,0,0,0,0,0,0,0,0,63,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,69,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,81,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,65,0,99,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,86,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,67,0,0,0,0,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,66,0,0,0,0,94,0,0,0,0,58,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,94,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,98,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,58,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,61,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,65,0,62,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,87,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,63,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,64,0,96,0,0,0,0,0,59,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,97,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+81,82,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+67,68,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+70,63,69,0,0,0,0,0,0,0,95,93,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+62,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,67,0,0,0,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,89,0,0,0,0,0,0,0,88,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,83,0,0,0,0,0,0,0,0,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,90,0,0,0,0,0,0,0,0,84,0,0,0,0,91,0,0,0,92,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</tiles>
+  <tiles layer="Furniture">
+0,0,0,0,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,87,0,0,0,0,0,94,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,31,0,0,0,0,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,37,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,79,91,0,0,80,0,0,0,0,0,0,0,0,0,0,0,0,0,
+35,0,0,0,25,0,0,0,0,0,74,0,0,0,57,0,56,0,0,0,0,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+34,0,0,0,0,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,81,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+33,0,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,88,0,0,71,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55,0,0,0,0,62,57,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,26,0,0,0,0,0,0,0,0,0,0,0,0,73,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,17,0,78,0,0,53,0,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,37,0,0,0,72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,49,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,16,0,0,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,29,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,47,0,0,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,45,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,77,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,51,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,21,0,0,37,0,0,0,0,0,0,48,0,0,0,0,0,0,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</tiles>
+  <tiles layer="Walls">
+5,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,4,0,0,0,0,0,0,0,0,0,0,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,
+4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,
+4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,
+3,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,0,0,13,12,12,12,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,
+4,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,
+3,0,0,0,0,0,0,0,11,0,0,0,0,0,0,13,12,12,12,13,12,12,12,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,
+4,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,
+3,0,0,0,0,0,0,0,13,0,0,0,0,0,13,0,0,13,0,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,
+4,0,0,0,0,0,0,0,11,0,0,0,0,0,11,0,0,11,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,
+3,0,0,0,0,0,0,0,11,0,0,0,0,0,11,0,0,11,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,
+4,0,0,0,0,0,0,0,11,0,0,0,0,0,11,0,0,11,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,
+3,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,
+4,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,
+3,0,0,0,0,0,0,0,11,0,0,13,12,12,12,13,12,12,12,13,12,12,12,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,
+4,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,
+4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,
+4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,
+4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4,0,0,9,8,8,8,8,8,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+3,0,0,7,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4,0,0,7,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+3,0,0,7,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4,0,0,8,8,8,8,8,8,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4,0,0,9,8,8,8,8,8,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+3,0,0,7,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4,0,0,7,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+3,0,0,7,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4,0,0,8,8,8,8,8,8,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4,0,0,9,8,8,8,8,8,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+3,0,0,7,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4,0,0,7,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+3,0,0,7,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4,0,0,8,8,8,8,8,8,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4,0,0,9,8,8,8,8,8,7,0,0,9,8,8,8,8,8,7,0,0,9,8,8,8,8,8,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+3,0,0,7,0,0,0,0,0,7,0,0,7,0,0,0,0,0,7,0,0,7,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4,0,0,7,0,0,0,0,0,7,0,0,7,0,0,0,0,0,7,0,0,7,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+3,0,0,7,0,0,0,0,0,7,0,0,7,0,0,0,0,0,7,0,0,7,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4,0,0,8,8,8,8,8,8,10,0,0,8,8,8,8,8,8,10,0,0,8,8,8,8,8,8,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</tiles>
+ </floor>
+ <floor>
+  <object type="furniture" FurnitureTiles="213" orient="W" x="6" y="17"/>
+  <object type="furniture" FurnitureTiles="213" orient="N" x="6" y="21"/>
+  <object type="furniture" FurnitureTiles="139" orient="E" x="8" y="13"/>
+  <object type="furniture" FurnitureTiles="139" orient="S" x="11" y="15"/>
+  <object type="furniture" FurnitureTiles="141" orient="E" x="8" y="9"/>
+  <object type="furniture" FurnitureTiles="141" orient="S" x="15" y="15"/>
+  <object type="furniture" FurnitureTiles="142" orient="S" x="19" y="15"/>
+  <object type="furniture" FurnitureTiles="142" orient="E" x="8" y="5"/>
+  <object type="furniture" FurnitureTiles="139" orient="E" x="19" y="9"/>
+  <object type="furniture" FurnitureTiles="141" orient="E" x="17" y="9"/>
+  <object type="furniture" FurnitureTiles="142" orient="E" x="14" y="9"/>
+  <object type="furniture" FurnitureTiles="142" orient="E" x="21" y="9"/>
+  <object type="furniture" FurnitureTiles="142" orient="S" x="15" y="7"/>
+  <object type="furniture" FurnitureTiles="139" orient="S" x="19" y="7"/>
+  <object type="furniture" FurnitureTiles="141" orient="S" x="19" y="5"/>
+  <object type="roof" width="7" height="7" RoofType="FlatTop" Depth="Zero" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="36" SlopeTiles="39" TopTiles="41" x="28" y="41"/>
+  <object type="roof" width="10" height="9" RoofType="FlatTop" Depth="Zero" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="36" SlopeTiles="39" TopTiles="41" x="35" y="39"/>
+  <object type="roof" width="3" height="16" RoofType="FlatTop" Depth="Zero" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="36" SlopeTiles="39" TopTiles="41" x="35" y="23"/>
+  <object type="roof" width="4" height="16" RoofType="PeakNS" Depth="Two" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="36" SlopeTiles="39" TopTiles="41" x="38" y="23"/>
+  <object type="roof" width="3" height="16" RoofType="FlatTop" Depth="Zero" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="36" SlopeTiles="39" TopTiles="41" x="42" y="23"/>
+  <object type="furniture" FurnitureTiles="214" orient="N" x="39" y="39"/>
+  <object type="furniture" FurnitureTiles="155" orient="W" x="29" y="43"/>
+  <object type="furniture" FurnitureTiles="155" orient="N" x="41" y="45"/>
+  <object type="furniture" FurnitureTiles="155" orient="E" x="39" y="40"/>
+  <object type="furniture" FurnitureTiles="156" orient="W" x="37" y="44"/>
+  <object type="furniture" FurnitureTiles="156" orient="N" x="36" y="28"/>
+  <object type="furniture" FurnitureTiles="156" orient="E" x="42" y="35"/>
+  <object type="furniture" FurnitureTiles="156" orient="S" x="43" y="26"/>
+  <object type="furniture" FurnitureTiles="157" orient="W" x="36" y="39"/>
+  <rooms>
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</rooms>
+  <tiles layer="FloorOverlay">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,43,43,43,43,43,43,43,43,43,42,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,44,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,44,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,44,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,44,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,44,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,44,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,44,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,44,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,44,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,44,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,44,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,44,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,44,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,44,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,44,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,44,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,44,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,43,43,43,43,43,43,39,0,0,0,0,0,0,0,0,0,44,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,41,43,43,43,43,43,43,43,43,43,43,43,43,43,43,43,43,39,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</tiles>
+  <tiles layer="Furniture">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,38,0,0,0,0,0,0,0,0,0,0,0,0,0,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</tiles>
+  <tiles layer="Furniture2">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</tiles>
+ </floor>
+ <floor>
+  <rooms>
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</rooms>
+ </floor>
+</building>
